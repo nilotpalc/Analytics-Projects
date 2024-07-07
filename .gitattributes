@@ -1,0 +1,2 @@
+*.knwf filter=lfs diff=lfs merge=lfs -text
+*.knar filter=lfs diff=lfs merge=lfs -text
