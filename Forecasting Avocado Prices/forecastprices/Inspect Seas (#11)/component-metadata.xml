@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-08-24T20:46:40.756+05:30</last-modified>
+    <description>This component calculates autocorrelation with Pearson Correlation for lagged copies of time series. Additionally, it produces an interactive view that displays the Autocorrelation Function (ACF) Plot, Partial Autocorrelation Function (PACF) Plot, and detects the first local maximum of correlation for sign of dominant seasonality.
+
+If you encoutner errors please verify that 
+Preferances > KNIME > Python (labs) > Python environment configuration
+is set to bundled
+
+</description>
+    <component-type>Sink</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAsklEQVR4nGNgoBUwMDBwMDIyakDGIDFiNAqAFJuYmGAoBoonAPEEoBoFilwHNLyeaEMMIEABTUzA2Nh4PooA0Gn12JwN8jc2cZAYWBxoUgBQcwGQnoBiKgEDYGEFF4CGsgIooIgxAKYHOweLTegGE20AkkEGQC+uRzNgApwDDxQiAchFGOpRTMTvGlA0YqqFBmIBIc2wAMelQAFo+n5s6R4kBrKZqFQITR8omYmUMCIaAAD0RELelYkiBgAAAABJRU5ErkJggg==</icon>
+    <in-ports>
+        <port name="Input Table">Data containing selected column for the Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) analysis.</port>
+    </in-ports>
+    <out-ports>
+        <port name="Data Table of detected local maximum">This table contains a list of detected local maximum, their corresponding correlation, and lag value.</port>
+        <port name="Flow Variable containing seasonality lag">This flow variable contains the lag value where the dominant seasonality might occur.</port>
+    </out-ports>
+</component-metadata>

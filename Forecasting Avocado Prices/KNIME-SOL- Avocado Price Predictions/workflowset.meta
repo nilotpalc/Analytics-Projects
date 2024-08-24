@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="4" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="text" name="Author" read-only="false">Swetha Kannan</element>
+    <element form="date" name="Creation Date" read-only="false">29/4/2023/12:00:01 +02:00</element>
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p>Challenge 14 - Avocado Price Predictions</p><p><strong>Level:</strong> Medium</p><p></p><p><strong>Description:</strong> You are a data scientist asked to analyze an avocado dataset by your team. The task at hand is to pick a specific avocado type in the whole of the US and forecast its daily average prices. To do that, you should train, apply, and score an <strong>ARIMA model</strong>. Do you see any seasonality in the line plot or autocorrelation plots? Do you think a <strong>seasonal ARIMA (SARIMA)</strong> would perform better? For your model, visualize forecasts and compute scoring metrics.</p>
+
+URL: Avocado prices dataset https://www.kaggle.com/datasets/neuromusic/avocado-prices
+
+TAGS: justknimeit,JKISeason3-14,time series,time series analytics,price forecasting,forecasting,arima,sarima]]></element>
+    <element form="text" name="Last Edited" read-only="true">2024-08-20 09:39:32 -0400</element>
+</KNIMEMetaInfo>

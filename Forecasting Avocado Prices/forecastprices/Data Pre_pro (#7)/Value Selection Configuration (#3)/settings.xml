@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="avocado-type (column)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="type"/>
+        </config>
+        <config key="Variable_1">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="avocado-type"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="conventional"/>
+        </config>
+        <config key="Variable_2">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="avocado-type (column)"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="type"/>
+        </config>
+        <config key="Variable_3">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="avocado-type"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="conventional"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="defaultValue">
+            <entry key="column" type="xstring" value="type"/>
+            <entry key="value" type="xstring" value="conventional"/>
+        </config>
+        <entry key="hideInDialog" type="xboolean" value="false"/>
+        <entry key="parameterName" type="xstring" value="avocado-type"/>
+        <entry key="label" type="xstring" value="Avocado Type"/>
+        <entry key="description" type="xstring" value="Select the type of Avocado for price forecasting"/>
+        <entry key="required" type="xboolean" value="true"/>
+        <entry key="flowVariableName" type="xstring" value="avocado-type"/>
+        <entry key="columnType" type="xstring" value="All"/>
+        <entry key="lockColumn" type="xboolean" value="false"/>
+        <config key="possibleColumns">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="region"/>
+            <entry key="1" type="xstring" value="type"/>
+        </config>
+        <config key="colValues">
+            <config key="region">
+                <entry key="array-size" type="xint" value="54"/>
+                <entry key="0" type="xstring" value="Albany"/>
+                <entry key="1" type="xstring" value="Atlanta"/>
+                <entry key="2" type="xstring" value="BaltimoreWashington"/>
+                <entry key="3" type="xstring" value="Boise"/>
+                <entry key="4" type="xstring" value="Boston"/>
+                <entry key="5" type="xstring" value="BuffaloRochester"/>
+                <entry key="6" type="xstring" value="California"/>
+                <entry key="7" type="xstring" value="Charlotte"/>
+                <entry key="8" type="xstring" value="Chicago"/>
+                <entry key="9" type="xstring" value="CincinnatiDayton"/>
+                <entry key="10" type="xstring" value="Columbus"/>
+                <entry key="11" type="xstring" value="DallasFtWorth"/>
+                <entry key="12" type="xstring" value="Denver"/>
+                <entry key="13" type="xstring" value="Detroit"/>
+                <entry key="14" type="xstring" value="GrandRapids"/>
+                <entry key="15" type="xstring" value="GreatLakes"/>
+                <entry key="16" type="xstring" value="HarrisburgScranton"/>
+                <entry key="17" type="xstring" value="HartfordSpringfield"/>
+                <entry key="18" type="xstring" value="Houston"/>
+                <entry key="19" type="xstring" value="Indianapolis"/>
+                <entry key="20" type="xstring" value="Jacksonville"/>
+                <entry key="21" type="xstring" value="LasVegas"/>
+                <entry key="22" type="xstring" value="LosAngeles"/>
+                <entry key="23" type="xstring" value="Louisville"/>
+                <entry key="24" type="xstring" value="MiamiFtLauderdale"/>
+                <entry key="25" type="xstring" value="Midsouth"/>
+                <entry key="26" type="xstring" value="Nashville"/>
+                <entry key="27" type="xstring" value="NewOrleansMobile"/>
+                <entry key="28" type="xstring" value="NewYork"/>
+                <entry key="29" type="xstring" value="Northeast"/>
+                <entry key="30" type="xstring" value="NorthernNewEngland"/>
+                <entry key="31" type="xstring" value="Orlando"/>
+                <entry key="32" type="xstring" value="Philadelphia"/>
+                <entry key="33" type="xstring" value="PhoenixTucson"/>
+                <entry key="34" type="xstring" value="Pittsburgh"/>
+                <entry key="35" type="xstring" value="Plains"/>
+                <entry key="36" type="xstring" value="Portland"/>
+                <entry key="37" type="xstring" value="RaleighGreensboro"/>
+                <entry key="38" type="xstring" value="RichmondNorfolk"/>
+                <entry key="39" type="xstring" value="Roanoke"/>
+                <entry key="40" type="xstring" value="Sacramento"/>
+                <entry key="41" type="xstring" value="SanDiego"/>
+                <entry key="42" type="xstring" value="SanFrancisco"/>
+                <entry key="43" type="xstring" value="Seattle"/>
+                <entry key="44" type="xstring" value="SouthCarolina"/>
+                <entry key="45" type="xstring" value="SouthCentral"/>
+                <entry key="46" type="xstring" value="Southeast"/>
+                <entry key="47" type="xstring" value="Spokane"/>
+                <entry key="48" type="xstring" value="StLouis"/>
+                <entry key="49" type="xstring" value="Syracuse"/>
+                <entry key="50" type="xstring" value="Tampa"/>
+                <entry key="51" type="xstring" value="TotalUS"/>
+                <entry key="52" type="xstring" value="West"/>
+                <entry key="53" type="xstring" value="WestTexNewMexico"/>
+            </config>
+            <config key="type">
+                <entry key="array-size" type="xint" value="2"/>
+                <entry key="0" type="xstring" value="conventional"/>
+                <entry key="1" type="xstring" value="organic"/>
+            </config>
+        </config>
+        <entry key="type" type="xstring" value="Dropdown"/>
+        <entry key="limit_number_visible_options" type="xboolean" value="false"/>
+        <entry key="number_visible_options" type="xint" value="5"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.configuration.selection.value.ValueSelectionDialogNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Value Selection Configuration"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202407291559"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408010849"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Value Selection Configuration"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObjectSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.flowvariable.FlowVariablePortObject"/>
+            <entry key="port_object_summary" type="xstring" value="Variables connection"/>
+            <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
+            <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="64bc410d-e7bd-4596-b6e0-487326e1db0d"/>
+    </config>
+</config>
