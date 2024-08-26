@@ -8,13 +8,13 @@
     <config key="model">
         <entry key="natural_log" type="xboolean" value="false"/>
         <entry key="dynamic_check" type="xboolean" value="false"/>
-        <entry key="number_of_forecasts" type="xint" value="7"/>
+        <entry key="number_of_forecasts" type="xint" value="19"/>
         <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
-        <entry key="extension_version_Internals" type="xstring" value="5.3.0"/>
+        <entry key="extension_version_Internals" type="xstring" value="5.3.1"/>
     </config>
     <config key="variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
-    <entry key="state" type="xstring" value="CONFIGURED"/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
     <entry key="factory" type="xstring" value="org.knime.python3.nodes.extension.ExtensionNodeSetFactory$DynamicExtensionNodeFactory"/>
     <entry key="node-name" type="xstring" value="SARIMA Predictor (Labs)"/>
     <entry key="node-bundle-name" type="xstring" value="KNIME Timeseries (Labs)"/>
@@ -35,16 +35,23 @@
         <config key="Output Forecast # 0"/>
     </config>
     <entry key="name" type="xstring" value="SARIMA Predictor (Labs)"/>
-    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
     <entry key="isInactive" type="xboolean" value="false"/>
     <config key="ports">
         <config key="port_1">
             <entry key="index" type="xint" value="1"/>
-            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 19, Cols: 1"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
         </config>
+    </config>
+    <config key="internalObjects">
+        <entry key="location" type="xstring" value="internalTables"/>
+        <config key="content"/>
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="291797f1-703b-4da9-8473-1d4f12d45024"/>
     </config>
 </config>
