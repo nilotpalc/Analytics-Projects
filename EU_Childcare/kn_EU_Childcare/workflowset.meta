@@ -2,6 +2,8 @@
 <!--This file is auto-generated and is overwritten each time the workflow is saved.
     The metadata have moved to the `workflow-metadata.xml` file.-->
 <KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
-    <element form="multiline" name="Comments" read-only="false"/>
-    <element form="text" name="Last Edited" read-only="true">2024-08-27 17:46:18 +0530</element>
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p>Solution submission for JKISeason3 - 15</p><p><strong>Children in Childcare</strong></p>
+
+TAGS: JKISeason3-15]]></element>
+    <element form="text" name="Last Edited" read-only="true">2024-08-27 20:40:35 +0530</element>
 </KNIMEMetaInfo>

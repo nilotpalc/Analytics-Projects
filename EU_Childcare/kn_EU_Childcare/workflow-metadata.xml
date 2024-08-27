@@ -1,5 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
-    <last-modified>2024-08-27T17:46:18.792+05:30</last-modified>
-    <description/>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-08-27T20:40:35.810+05:30</last-modified>
+    <description><![CDATA[<p>Solution submission for JKISeason3 - 15</p><p><strong>Children in Childcare</strong></p>]]></description>
+    <tags>
+        <tag>JKISeason3-15</tag>
+    </tags>
 </workflow-metadata>
