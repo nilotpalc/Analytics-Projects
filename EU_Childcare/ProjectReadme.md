@@ -14,3 +14,6 @@
 Remember to upload your solution with tag  **JKISeason3-15**  to your public space on KNIME Community Hub. To increase the visibility of your solution, also post it to  **[this challenge thread](https://forum.knime.com/t/solutions-to-just-knime-it-challenge-15-season-3/82225)**  on KNIME Forum.
 
 > Written with [StackEdit](https://stackedit.io/).
+<!--stackedit_data:
+eyJoaXN0b3J5IjpbLTEwNzg1Njg0NzZdfQ==
+-->
