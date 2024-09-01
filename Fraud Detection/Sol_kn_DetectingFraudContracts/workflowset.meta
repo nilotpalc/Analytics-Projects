@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p>Challenge 13: Detecting Fraud Contracts</p><p></p><p><strong>Level:&nbsp;</strong>Easy to Medium<br><br><strong>Description:&nbsp;</strong>You work in the contracts department of a software company and are asked to detect fraudulent (or wrong) contracts based on their contract value. Given the PDF versions of the contracts, you need to extract their contract value (and, optionally, any other fields you find useful) and detect outliers among them. You can either use simpler outlier detection techniques, such as those based on statistics or visualization, or more advanced ones based on machine learning.</p>
+
+TAGS: Fraud detection,Statistics,Outlier detection,Box plot,Outliers,Text processing,PDF,justknimeit,medium,easy,JKISeason3-13]]></element>
+    <element form="text" name="Last Edited" read-only="true">2024-08-13 09:13:17 -0400</element>
+</KNIMEMetaInfo>
