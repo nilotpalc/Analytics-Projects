@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <author>TA</author>
+    <created>2024-08-30T19:48:50.000+09:00</created>
+    <last-modified>2024-08-30T19:50:05.239+09:00</last-modified>
+    <description>Analyzing User Reviews
+Challenge 16
+
+
+Level: Medium
+
+Description: You are the architect behind an innovative vocal assistance device, and your initial goal is to process user reviews and uncover insights about 'sound quality’. To this end, you decide to use 4-grams to discover frequently mentioned words near the term "sound quality”. What trends emerge from the 4-gram frequencies? What is the top 4-gram? Hint: The NGram Creator node can come in handy here!
+
+Author: Michele Bassanelli
+
+Dataset: User Reviews Data in the KNIME Community Hub
+</description>
+    <tags>
+        <tag>JKISeason3-16</tag>
+    </tags>
+    <links>
+        <link href="https://www.knime.com/just-knime-it?pk_vid=f1a9625dd14a14c5171698895027e10b">JKISeason3-16</link>
+        <link href="https://hub.knime.com/alinebessa/spaces/Just%20KNIME%20It!%20Season%203%20-%20Datasets/Challenge%2016%20-%20Dataset~TYcq5RuPQwcZYohf/">Dataset</link>
+        <link href="https://forum.knime.com/t/solutions-to-just-knime-it-challenge-16-season-3/82370?pk_vid=4997566ef08b8a051725014987168798">this challenge thread</link>
+    </links>
+</workflow-metadata>

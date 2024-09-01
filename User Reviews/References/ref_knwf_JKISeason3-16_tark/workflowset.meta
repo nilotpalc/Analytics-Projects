@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="4" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="text" name="Author" read-only="false">TA</element>
+    <element form="date" name="Creation Date" read-only="false">30/7/2024/19:48:50 +09:00</element>
+    <element form="multiline" name="Comments" read-only="false">Analyzing User Reviews
+Challenge 16
+
+
+Level: Medium
+
+Description: You are the architect behind an innovative vocal assistance device, and your initial goal is to process user reviews and uncover insights about 'sound quality’. To this end, you decide to use 4-grams to discover frequently mentioned words near the term "sound quality”. What trends emerge from the 4-gram frequencies? What is the top 4-gram? Hint: The NGram Creator node can come in handy here!
+
+Author: Michele Bassanelli
+
+Dataset: User Reviews Data in the KNIME Community Hub
+
+
+URL: JKISeason3-16 https://www.knime.com/just-knime-it?pk_vid=f1a9625dd14a14c5171698895027e10b
+URL: Dataset https://hub.knime.com/alinebessa/spaces/Just%20KNIME%20It!%20Season%203%20-%20Datasets/Challenge%2016%20-%20Dataset~TYcq5RuPQwcZYohf/
+URL: this challenge thread https://forum.knime.com/t/solutions-to-just-knime-it-challenge-16-season-3/82370?pk_vid=4997566ef08b8a051725014987168798
+
+TAGS: JKISeason3-16</element>
+    <element form="text" name="Last Edited" read-only="true">2024-08-30 19:50:05 +0900</element>
+</KNIMEMetaInfo>

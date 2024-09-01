@@ -1,0 +1,444 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="Path_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Path" type="xstring" value="knime://knime.workflow/data"/>
+        <config key="Rec_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Rec" type="xboolean" value="false"/>
+        <config key="IgnoreHiddenFiles_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="IgnoreHiddenFiles" type="xboolean" value="true"/>
+        <config key="Type_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="Type" type="xstring" value="Extension"/>
+        <config key="ColumnsList_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_stringarray"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="ColumnsList">
+            <entry key="array-size" type="xint" value="25"/>
+            <entry key="0" type="xstring" value="Filepath"/>
+            <entry key="1" type="xstring" value="MIME Type"/>
+            <entry key="2" type="xstring" value="Title"/>
+            <entry key="3" type="xstring" value="Author"/>
+            <entry key="4" type="xstring" value="Contributor"/>
+            <entry key="5" type="xstring" value="Date Created"/>
+            <entry key="6" type="xstring" value="Description"/>
+            <entry key="7" type="xstring" value="Keywords"/>
+            <entry key="8" type="xstring" value="Language"/>
+            <entry key="9" type="xstring" value="Date Modified"/>
+            <entry key="10" type="xstring" value="Last Author"/>
+            <entry key="11" type="xstring" value="Publisher"/>
+            <entry key="12" type="xstring" value="Print Date"/>
+            <entry key="13" type="xstring" value="Rating"/>
+            <entry key="14" type="xstring" value="Rights"/>
+            <entry key="15" type="xstring" value="Relation"/>
+            <entry key="16" type="xstring" value="Source"/>
+            <entry key="17" type="xstring" value="Type"/>
+            <entry key="18" type="xstring" value="Identifier"/>
+            <entry key="19" type="xstring" value="Format"/>
+            <entry key="20" type="xstring" value="Coverage"/>
+            <entry key="21" type="xstring" value="Creator Tool"/>
+            <entry key="22" type="xstring" value="Comment"/>
+            <entry key="23" type="xstring" value="Metadata Date"/>
+            <entry key="24" type="xstring" value="Content"/>
+        </config>
+        <config key="ExtractAttachments_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="ExtractAttachments" type="xboolean" value="true"/>
+        <config key="ExtractAttachmentsPath_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="ExtractAttachmentsPath" type="xstring" value="knime://knime.workflow/../../data"/>
+        <config key="CredentialsKey_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_password"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="CredentialsKey" type="xpassword" value="02AAAAAGMq_QxveL1vZ0EBj31ul9M="/>
+        <config key="ExtractEncrypted_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="ExtractEncrypted" type="xboolean" value="false"/>
+        <config key="ErrorColumn_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="ErrorColumn" type="xboolean" value="false"/>
+        <config key="ErrorColumnName_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="false"/>
+        </config>
+        <entry key="ErrorColumnName" type="xstring" value="Error Output"/>
+        <config key="TypeFilterList_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_filterString"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <config key="TypeFilterList">
+            <config key="InclList">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="pdf"/>
+            </config>
+            <config key="ExclList">
+                <entry key="array-size" type="xint" value="283"/>
+                <entry key="0" type="xstring" value="3g2"/>
+                <entry key="1" type="xstring" value="3gp"/>
+                <entry key="2" type="xstring" value="7z"/>
+                <entry key="3" type="xstring" value="a"/>
+                <entry key="4" type="xstring" value="aart"/>
+                <entry key="5" type="xstring" value="ac"/>
+                <entry key="6" type="xstring" value="acfm"/>
+                <entry key="7" type="xstring" value="afm"/>
+                <entry key="8" type="xstring" value="aif"/>
+                <entry key="9" type="xstring" value="aifc"/>
+                <entry key="10" type="xstring" value="aiff"/>
+                <entry key="11" type="xstring" value="am"/>
+                <entry key="12" type="xstring" value="amfm"/>
+                <entry key="13" type="xstring" value="anpa"/>
+                <entry key="14" type="xstring" value="ar"/>
+                <entry key="15" type="xstring" value="arj"/>
+                <entry key="16" type="xstring" value="atom"/>
+                <entry key="17" type="xstring" value="au"/>
+                <entry key="18" type="xstring" value="bmp"/>
+                <entry key="19" type="xstring" value="boz"/>
+                <entry key="20" type="xstring" value="bpg"/>
+                <entry key="21" type="xstring" value="br"/>
+                <entry key="22" type="xstring" value="brotli"/>
+                <entry key="23" type="xstring" value="bz"/>
+                <entry key="24" type="xstring" value="bz2"/>
+                <entry key="25" type="xstring" value="C"/>
+                <entry key="26" type="xstring" value="c++"/>
+                <entry key="27" type="xstring" value="cc"/>
+                <entry key="28" type="xstring" value="cdf"/>
+                <entry key="29" type="xstring" value="cfg"/>
+                <entry key="30" type="xstring" value="chm"/>
+                <entry key="31" type="xstring" value="class"/>
+                <entry key="32" type="xstring" value="classpath"/>
+                <entry key="33" type="xstring" value="com"/>
+                <entry key="34" type="xstring" value="conf"/>
+                <entry key="35" type="xstring" value="config"/>
+                <entry key="36" type="xstring" value="cpio"/>
+                <entry key="37" type="xstring" value="cpp"/>
+                <entry key="38" type="xstring" value="CPP"/>
+                <entry key="39" type="xstring" value="cwiki"/>
+                <entry key="40" type="xstring" value="cxx"/>
+                <entry key="41" type="xstring" value="data"/>
+                <entry key="42" type="xstring" value="dbase"/>
+                <entry key="43" type="xstring" value="dbase3"/>
+                <entry key="44" type="xstring" value="dbf"/>
+                <entry key="45" type="xstring" value="dcl"/>
+                <entry key="46" type="xstring" value="def"/>
+                <entry key="47" type="xstring" value="dib"/>
+                <entry key="48" type="xstring" value="dif"/>
+                <entry key="49" type="xstring" value="dll"/>
+                <entry key="50" type="xstring" value="doc"/>
+                <entry key="51" type="xstring" value="docm"/>
+                <entry key="52" type="xstring" value="docx"/>
+                <entry key="53" type="xstring" value="dot"/>
+                <entry key="54" type="xstring" value="dotm"/>
+                <entry key="55" type="xstring" value="dotx"/>
+                <entry key="56" type="xstring" value="drc"/>
+                <entry key="57" type="xstring" value="dwfx"/>
+                <entry key="58" type="xstring" value="dwg"/>
+                <entry key="59" type="xstring" value="egrm"/>
+                <entry key="60" type="xstring" value="emf"/>
+                <entry key="61" type="xstring" value="eml"/>
+                <entry key="62" type="xstring" value="ent"/>
+                <entry key="63" type="xstring" value="epub"/>
+                <entry key="64" type="xstring" value="fb2"/>
+                <entry key="65" type="xstring" value="fit"/>
+                <entry key="66" type="xstring" value="fits"/>
+                <entry key="67" type="xstring" value="flac"/>
+                <entry key="68" type="xstring" value="flv"/>
+                <entry key="69" type="xstring" value="fn"/>
+                <entry key="70" type="xstring" value="ft"/>
+                <entry key="71" type="xstring" value="fts"/>
+                <entry key="72" type="xstring" value="fv"/>
+                <entry key="73" type="xstring" value="g"/>
+                <entry key="74" type="xstring" value="gif"/>
+                <entry key="75" type="xstring" value="grb"/>
+                <entry key="76" type="xstring" value="grb1"/>
+                <entry key="77" type="xstring" value="grb2"/>
+                <entry key="78" type="xstring" value="grm"/>
+                <entry key="79" type="xstring" value="groovy"/>
+                <entry key="80" type="xstring" value="gz"/>
+                <entry key="81" type="xstring" value="h5"/>
+                <entry key="82" type="xstring" value="hdf"/>
+                <entry key="83" type="xstring" value="he5"/>
+                <entry key="84" type="xstring" value="htm"/>
+                <entry key="85" type="xstring" value="html"/>
+                <entry key="86" type="xstring" value="ibooks"/>
+                <entry key="87" type="xstring" value="icns"/>
+                <entry key="88" type="xstring" value="ico"/>
+                <entry key="89" type="xstring" value="ihtml"/>
+                <entry key="90" type="xstring" value="in"/>
+                <entry key="91" type="xstring" value="iso19139"/>
+                <entry key="92" type="xstring" value="jar"/>
+                <entry key="93" type="xstring" value="java"/>
+                <entry key="94" type="xstring" value="jb2"/>
+                <entry key="95" type="xstring" value="jbig2"/>
+                <entry key="96" type="xstring" value="jfi"/>
+                <entry key="97" type="xstring" value="jfif"/>
+                <entry key="98" type="xstring" value="jif"/>
+                <entry key="99" type="xstring" value="jmx"/>
+                <entry key="100" type="xstring" value="jp2"/>
+                <entry key="101" type="xstring" value="jpe"/>
+                <entry key="102" type="xstring" value="jpeg"/>
+                <entry key="103" type="xstring" value="jpg"/>
+                <entry key="104" type="xstring" value="junit"/>
+                <entry key="105" type="xstring" value="jx"/>
+                <entry key="106" type="xstring" value="kar"/>
+                <entry key="107" type="xstring" value="key"/>
+                <entry key="108" type="xstring" value="list"/>
+                <entry key="109" type="xstring" value="lz4"/>
+                <entry key="110" type="xstring" value="lzma"/>
+                <entry key="111" type="xstring" value="m2a"/>
+                <entry key="112" type="xstring" value="m3a"/>
+                <entry key="113" type="xstring" value="m4"/>
+                <entry key="114" type="xstring" value="m4a"/>
+                <entry key="115" type="xstring" value="m4b"/>
+                <entry key="116" type="xstring" value="m4v"/>
+                <entry key="117" type="xstring" value="manifest"/>
+                <entry key="118" type="xstring" value="mat"/>
+                <entry key="119" type="xstring" value="mbox"/>
+                <entry key="120" type="xstring" value="mdb"/>
+                <entry key="121" type="xstring" value="meta"/>
+                <entry key="122" type="xstring" value="mf"/>
+                <entry key="123" type="xstring" value="MF"/>
+                <entry key="124" type="xstring" value="mht"/>
+                <entry key="125" type="xstring" value="mhtml"/>
+                <entry key="126" type="xstring" value="mid"/>
+                <entry key="127" type="xstring" value="midi"/>
+                <entry key="128" type="xstring" value="mime"/>
+                <entry key="129" type="xstring" value="mov"/>
+                <entry key="130" type="xstring" value="mp2"/>
+                <entry key="131" type="xstring" value="mp2a"/>
+                <entry key="132" type="xstring" value="mp3"/>
+                <entry key="133" type="xstring" value="mp4"/>
+                <entry key="134" type="xstring" value="mp4a"/>
+                <entry key="135" type="xstring" value="mp4s"/>
+                <entry key="136" type="xstring" value="mp4v"/>
+                <entry key="137" type="xstring" value="mpg4"/>
+                <entry key="138" type="xstring" value="mpga"/>
+                <entry key="139" type="xstring" value="mpp"/>
+                <entry key="140" type="xstring" value="mpt"/>
+                <entry key="141" type="xstring" value="msg"/>
+                <entry key="142" type="xstring" value="n3"/>
+                <entry key="143" type="xstring" value="nc"/>
+                <entry key="144" type="xstring" value="nitf"/>
+                <entry key="145" type="xstring" value="ntf"/>
+                <entry key="146" type="xstring" value="numbers"/>
+                <entry key="147" type="xstring" value="odc"/>
+                <entry key="148" type="xstring" value="odf"/>
+                <entry key="149" type="xstring" value="odft"/>
+                <entry key="150" type="xstring" value="odg"/>
+                <entry key="151" type="xstring" value="odi"/>
+                <entry key="152" type="xstring" value="odp"/>
+                <entry key="153" type="xstring" value="ods"/>
+                <entry key="154" type="xstring" value="odt"/>
+                <entry key="155" type="xstring" value="oga"/>
+                <entry key="156" type="xstring" value="ogg"/>
+                <entry key="157" type="xstring" value="ogm"/>
+                <entry key="158" type="xstring" value="ogv"/>
+                <entry key="159" type="xstring" value="ogx"/>
+                <entry key="160" type="xstring" value="opus"/>
+                <entry key="161" type="xstring" value="ost"/>
+                <entry key="162" type="xstring" value="otc"/>
+                <entry key="163" type="xstring" value="otg"/>
+                <entry key="164" type="xstring" value="oth"/>
+                <entry key="165" type="xstring" value="oti"/>
+                <entry key="166" type="xstring" value="otm"/>
+                <entry key="167" type="xstring" value="otp"/>
+                <entry key="168" type="xstring" value="ots"/>
+                <entry key="169" type="xstring" value="ott"/>
+                <entry key="170" type="xstring" value="oxps"/>
+                <entry key="171" type="xstring" value="p7c"/>
+                <entry key="172" type="xstring" value="p7m"/>
+                <entry key="173" type="xstring" value="p7s"/>
+                <entry key="174" type="xstring" value="pack"/>
+                <entry key="175" type="xstring" value="pages"/>
+                <entry key="176" type="xstring" value="pen"/>
+                <entry key="177" type="xstring" value="png"/>
+                <entry key="178" type="xstring" value="pod"/>
+                <entry key="179" type="xstring" value="pom"/>
+                <entry key="180" type="xstring" value="pot"/>
+                <entry key="181" type="xstring" value="potm"/>
+                <entry key="182" type="xstring" value="potx"/>
+                <entry key="183" type="xstring" value="ppa"/>
+                <entry key="184" type="xstring" value="ppam"/>
+                <entry key="185" type="xstring" value="pps"/>
+                <entry key="186" type="xstring" value="ppsm"/>
+                <entry key="187" type="xstring" value="ppsx"/>
+                <entry key="188" type="xstring" value="ppt"/>
+                <entry key="189" type="xstring" value="pptm"/>
+                <entry key="190" type="xstring" value="pptx"/>
+                <entry key="191" type="xstring" value="ppz"/>
+                <entry key="192" type="xstring" value="project"/>
+                <entry key="193" type="xstring" value="psd"/>
+                <entry key="194" type="xstring" value="pst"/>
+                <entry key="195" type="xstring" value="pub"/>
+                <entry key="196" type="xstring" value="qt"/>
+                <entry key="197" type="xstring" value="rar"/>
+                <entry key="198" type="xstring" value="rmi"/>
+                <entry key="199" type="xstring" value="rng"/>
+                <entry key="200" type="xstring" value="rnx"/>
+                <entry key="201" type="xstring" value="roles"/>
+                <entry key="202" type="xstring" value="rss"/>
+                <entry key="203" type="xstring" value="rtf"/>
+                <entry key="204" type="xstring" value="sldasm"/>
+                <entry key="205" type="xstring" value="slddrw"/>
+                <entry key="206" type="xstring" value="sldm"/>
+                <entry key="207" type="xstring" value="sldprt"/>
+                <entry key="208" type="xstring" value="sldx"/>
+                <entry key="209" type="xstring" value="snd"/>
+                <entry key="210" type="xstring" value="spx"/>
+                <entry key="211" type="xstring" value="svg"/>
+                <entry key="212" type="xstring" value="svgz"/>
+                <entry key="213" type="xstring" value="sxw"/>
+                <entry key="214" type="xstring" value="tar"/>
+                <entry key="215" type="xstring" value="tbz"/>
+                <entry key="216" type="xstring" value="tbz2"/>
+                <entry key="217" type="xstring" value="text"/>
+                <entry key="218" type="xstring" value="tgz"/>
+                <entry key="219" type="xstring" value="thmx"/>
+                <entry key="220" type="xstring" value="tif"/>
+                <entry key="221" type="xstring" value="tiff"/>
+                <entry key="222" type="xstring" value="tld"/>
+                <entry key="223" type="xstring" value="tsd"/>
+                <entry key="224" type="xstring" value="ttc"/>
+                <entry key="225" type="xstring" value="ttf"/>
+                <entry key="226" type="xstring" value="txt"/>
+                <entry key="227" type="xstring" value="types"/>
+                <entry key="228" type="xstring" value="vm"/>
+                <entry key="229" type="xstring" value="vsd"/>
+                <entry key="230" type="xstring" value="vsdm"/>
+                <entry key="231" type="xstring" value="vsdx"/>
+                <entry key="232" type="xstring" value="vsl"/>
+                <entry key="233" type="xstring" value="vss"/>
+                <entry key="234" type="xstring" value="vssm"/>
+                <entry key="235" type="xstring" value="vssx"/>
+                <entry key="236" type="xstring" value="vst"/>
+                <entry key="237" type="xstring" value="vstm"/>
+                <entry key="238" type="xstring" value="vstx"/>
+                <entry key="239" type="xstring" value="vsw"/>
+                <entry key="240" type="xstring" value="wav"/>
+                <entry key="241" type="xstring" value="wbmp"/>
+                <entry key="242" type="xstring" value="webp"/>
+                <entry key="243" type="xstring" value="wmf"/>
+                <entry key="244" type="xstring" value="wsdd"/>
+                <entry key="245" type="xstring" value="xargs"/>
+                <entry key="246" type="xstring" value="xcat"/>
+                <entry key="247" type="xstring" value="xcf"/>
+                <entry key="248" type="xstring" value="xconf"/>
+                <entry key="249" type="xstring" value="xegrm"/>
+                <entry key="250" type="xstring" value="xgrm"/>
+                <entry key="251" type="xstring" value="xht"/>
+                <entry key="252" type="xstring" value="xhtml"/>
+                <entry key="253" type="xstring" value="xla"/>
+                <entry key="254" type="xstring" value="xlam"/>
+                <entry key="255" type="xstring" value="xlc"/>
+                <entry key="256" type="xstring" value="xld"/>
+                <entry key="257" type="xstring" value="xlex"/>
+                <entry key="258" type="xstring" value="xll"/>
+                <entry key="259" type="xstring" value="xlm"/>
+                <entry key="260" type="xstring" value="xlog"/>
+                <entry key="261" type="xstring" value="xlr"/>
+                <entry key="262" type="xstring" value="xls"/>
+                <entry key="263" type="xstring" value="xlsb"/>
+                <entry key="264" type="xstring" value="xlsm"/>
+                <entry key="265" type="xstring" value="xlsx"/>
+                <entry key="266" type="xstring" value="xlt"/>
+                <entry key="267" type="xstring" value="xltm"/>
+                <entry key="268" type="xstring" value="xltx"/>
+                <entry key="269" type="xstring" value="xlw"/>
+                <entry key="270" type="xstring" value="xmap"/>
+                <entry key="271" type="xstring" value="xml"/>
+                <entry key="272" type="xstring" value="xps"/>
+                <entry key="273" type="xstring" value="xroles"/>
+                <entry key="274" type="xstring" value="xsamples"/>
+                <entry key="275" type="xstring" value="xsd"/>
+                <entry key="276" type="xstring" value="xsl"/>
+                <entry key="277" type="xstring" value="xsp"/>
+                <entry key="278" type="xstring" value="xweb"/>
+                <entry key="279" type="xstring" value="xwelcome"/>
+                <entry key="280" type="xstring" value="xz"/>
+                <entry key="281" type="xstring" value="z"/>
+                <entry key="282" type="xstring" value="zip"/>
+            </config>
+            <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
+        </config>
+        <config key="ExtractInlineImagesPDF_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="ExtractInlineImagesPDF" type="xboolean" value="true"/>
+    </config>
+    <config key="nodeAnnotation">
+        <entry key="text" type="xstring" value="Read course agenda%%00013%%00010as pdf%%00013%%00010(l4-ts)"/>
+        <entry key="bgcolor" type="xint" value="16777215"/>
+        <entry key="x-coordinate" type="xint" value="108"/>
+        <entry key="y-coordinate" type="xint" value="182"/>
+        <entry key="width" type="xint" value="116"/>
+        <entry key="height" type="xint" value="45"/>
+        <entry key="alignment" type="xstring" value="CENTER"/>
+        <entry key="borderSize" type="xint" value="0"/>
+        <entry key="borderColor" type="xint" value="16777215"/>
+        <entry key="defFontSize" type="xint" value="9"/>
+        <entry key="annotation-version" type="xint" value="20151123"/>
+        <config key="styles"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.ext.textprocessing.nodes.source.parser.tika.TikaParserNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Tika Parser"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Textprocessing Plug-in"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.ext.textprocessing"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="4.5.0.v202112011101"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Textprocessing"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.ext.textprocessing.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="4.5.0.v202112011101"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Tika Parser"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 25"/>
+            <entry key="port_dir_location" type="xstring" value="port_1"/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+            <entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            <entry key="port_object_summary" type="xstring" value="Rows: 1, Cols: 3"/>
+            <entry key="port_dir_location" type="xstring" value="port_2"/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="1d4f65aa-b4c8-4eb4-af89-63308c7f9226"/>
+    </config>
+</config>

@@ -1,0 +1,588 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <config key="data">
+        <entry key="numSettings" type="xint" value="50"/>
+        <config key="0">
+            <entry key="id" type="xstring" value="tag_2"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row1"/>
+            </config>
+            <entry key="text" type="xstring" value="amazing"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="79.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="1">
+            <entry key="id" type="xstring" value="tag_35"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row34"/>
+            </config>
+            <entry key="text" type="xstring" value="perfect"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="75.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="2">
+            <entry key="id" type="xstring" value="tag_22"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row21"/>
+            </config>
+            <entry key="text" type="xstring" value="fine"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="50.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="3">
+            <entry key="id" type="xstring" value="tag_55"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row54"/>
+            </config>
+            <entry key="text" type="xstring" value="wonderful"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="33.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="4">
+            <entry key="id" type="xstring" value="tag_18"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row17"/>
+            </config>
+            <entry key="text" type="xstring" value="excellent"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="32.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="5">
+            <entry key="id" type="xstring" value="tag_5"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row4"/>
+            </config>
+            <entry key="text" type="xstring" value="bad"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="21.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="6">
+            <entry key="id" type="xstring" value="tag_20"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row19"/>
+            </config>
+            <entry key="text" type="xstring" value="fantastic"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="17.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="7">
+            <entry key="id" type="xstring" value="tag_3"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row2"/>
+            </config>
+            <entry key="text" type="xstring" value="annoying"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="16.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="8">
+            <entry key="id" type="xstring" value="tag_49"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row48"/>
+            </config>
+            <entry key="text" type="xstring" value="terrible"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="15.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="9">
+            <entry key="id" type="xstring" value="tag_34"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row33"/>
+            </config>
+            <entry key="text" type="xstring" value="outstanding"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="9.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="10">
+            <entry key="id" type="xstring" value="tag_36"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row35"/>
+            </config>
+            <entry key="text" type="xstring" value="poor"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="7.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="11">
+            <entry key="id" type="xstring" value="tag_14"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row13"/>
+            </config>
+            <entry key="text" type="xstring" value="disappointing"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="7.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="12">
+            <entry key="id" type="xstring" value="tag_24"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row23"/>
+            </config>
+            <entry key="text" type="xstring" value="horrible"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="5.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="13">
+            <entry key="id" type="xstring" value="tag_54"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row53"/>
+            </config>
+            <entry key="text" type="xstring" value="weak"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="5.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="14">
+            <entry key="id" type="xstring" value="tag_37"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row36"/>
+            </config>
+            <entry key="text" type="xstring" value="powerful"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="5.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="15">
+            <entry key="id" type="xstring" value="tag_4"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row3"/>
+            </config>
+            <entry key="text" type="xstring" value="awful"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="16">
+            <entry key="id" type="xstring" value="tag_12"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row11"/>
+            </config>
+            <entry key="text" type="xstring" value="defective"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="17">
+            <entry key="id" type="xstring" value="tag_50"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row49"/>
+            </config>
+            <entry key="text" type="xstring" value="terrific"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="18">
+            <entry key="id" type="xstring" value="tag_52"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row51"/>
+            </config>
+            <entry key="text" type="xstring" value="unique"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="19">
+            <entry key="id" type="xstring" value="tag_25"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row24"/>
+            </config>
+            <entry key="text" type="xstring" value="impressive"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="20">
+            <entry key="id" type="xstring" value="tag_33"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row32"/>
+            </config>
+            <entry key="text" type="xstring" value="natural"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="21">
+            <entry key="id" type="xstring" value="tag_47"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row46"/>
+            </config>
+            <entry key="text" type="xstring" value="superb"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="22">
+            <entry key="id" type="xstring" value="tag_11"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row10"/>
+            </config>
+            <entry key="text" type="xstring" value="deep"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="23">
+            <entry key="id" type="xstring" value="tag_32"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row31"/>
+            </config>
+            <entry key="text" type="xstring" value="muffled"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="24">
+            <entry key="id" type="xstring" value="tag_48"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row47"/>
+            </config>
+            <entry key="text" type="xstring" value="superior"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="25">
+            <entry key="id" type="xstring" value="tag_8"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row7"/>
+            </config>
+            <entry key="text" type="xstring" value="choice"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="26">
+            <entry key="id" type="xstring" value="tag_19"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row18"/>
+            </config>
+            <entry key="text" type="xstring" value="fabulous"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="27">
+            <entry key="id" type="xstring" value="tag_7"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row6"/>
+            </config>
+            <entry key="text" type="xstring" value="buzzing"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="28">
+            <entry key="id" type="xstring" value="tag_10"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row9"/>
+            </config>
+            <entry key="text" type="xstring" value="crisp"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="29">
+            <entry key="id" type="xstring" value="tag_51"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row50"/>
+            </config>
+            <entry key="text" type="xstring" value="tinny"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="30">
+            <entry key="id" type="xstring" value="tag_40"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row39"/>
+            </config>
+            <entry key="text" type="xstring" value="refined"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="31">
+            <entry key="id" type="xstring" value="tag_41"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row40"/>
+            </config>
+            <entry key="text" type="xstring" value="rough"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="32">
+            <entry key="id" type="xstring" value="tag_6"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row5"/>
+            </config>
+            <entry key="text" type="xstring" value="bright"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="33">
+            <entry key="id" type="xstring" value="tag_39"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row38"/>
+            </config>
+            <entry key="text" type="xstring" value="pure"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="34">
+            <entry key="id" type="xstring" value="tag_9"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row8"/>
+            </config>
+            <entry key="text" type="xstring" value="choppy"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="35">
+            <entry key="id" type="xstring" value="tag_23"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row22"/>
+            </config>
+            <entry key="text" type="xstring" value="flat"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="36">
+            <entry key="id" type="xstring" value="tag_38"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row37"/>
+            </config>
+            <entry key="text" type="xstring" value="precise"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="37">
+            <entry key="id" type="xstring" value="tag_43"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row42"/>
+            </config>
+            <entry key="text" type="xstring" value="smooth"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="38">
+            <entry key="id" type="xstring" value="tag_31"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row30"/>
+            </config>
+            <entry key="text" type="xstring" value="mediocre"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="39">
+            <entry key="id" type="xstring" value="tag_29"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row28"/>
+            </config>
+            <entry key="text" type="xstring" value="lame"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="40">
+            <entry key="id" type="xstring" value="tag_27"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row26"/>
+            </config>
+            <entry key="text" type="xstring" value="intermittent"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="41">
+            <entry key="id" type="xstring" value="tag_21"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row20"/>
+            </config>
+            <entry key="text" type="xstring" value="faulty"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="42">
+            <entry key="id" type="xstring" value="tag_53"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row52"/>
+            </config>
+            <entry key="text" type="xstring" value="unsettling"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="43">
+            <entry key="id" type="xstring" value="tag_1"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row0"/>
+            </config>
+            <entry key="text" type="xstring" value="adept"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="44">
+            <entry key="id" type="xstring" value="tag_28"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row27"/>
+            </config>
+            <entry key="text" type="xstring" value="inviting"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="45">
+            <entry key="id" type="xstring" value="tag_15"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row14"/>
+            </config>
+            <entry key="text" type="xstring" value="distorted"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="46">
+            <entry key="id" type="xstring" value="tag_46"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row45"/>
+            </config>
+            <entry key="text" type="xstring" value="subpar"/>
+            <entry key="color" type="xstring" value="#FF6666"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="47">
+            <entry key="id" type="xstring" value="tag_56"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row55"/>
+            </config>
+            <entry key="text" type="xstring" value="worthy"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="48">
+            <entry key="id" type="xstring" value="tag_17"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row16"/>
+            </config>
+            <entry key="text" type="xstring" value="engaging"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="49">
+            <entry key="id" type="xstring" value="tag_16"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row15"/>
+            </config>
+            <entry key="text" type="xstring" value="elegant"/>
+            <entry key="color" type="xstring" value="#3399FF"/>
+            <entry key="size" type="xdouble" value="1.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+    </config>
+    <entry key="tableID" type="xstring" value="5d1a2d75-32ee-41ff-8795-d538aa7295d1"/>
+    <config key="subscriptionFilterIds">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="warningMessages">
+        <entry key="numSettings" type="xint" value="1"/>
+        <entry key="key_0" type="xstring" value="knime_clipped_rows"/>
+        <entry key="value_0" type="xstring" value="Only the first 50 tags are displayed."/>
+    </config>
+    <entry key="imageGeneration" type="xboolean" value="false"/>
+    <entry key="warningsInView" type="xboolean" value="true"/>
+    <entry key="resizeToWindow" type="xboolean" value="true"/>
+    <entry key="imageWidth" type="xint" value="800"/>
+    <entry key="imageHeight" type="xint" value="600"/>
+    <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+    <entry key="displayRefreshButton" type="xboolean" value="true"/>
+    <entry key="disableAnimations" type="xboolean" value="false"/>
+    <entry key="colorProp" type="xboolean" value="true"/>
+    <entry key="font" type="xstring" value="Impact"/>
+    <entry key="fontBold" type="xboolean" value="false"/>
+    <entry key="enableViewConfiguration" type="xboolean" value="true"/>
+    <entry key="enableTitleChange" type="xboolean" value="true"/>
+    <entry key="enableSubtitleChange" type="xboolean" value="true"/>
+    <entry key="enableFontSizeChange" type="xboolean" value="true"/>
+    <entry key="enableScaleTypeChange" type="xboolean" value="true"/>
+    <entry key="enableSpiralTypeChange" type="xboolean" value="true"/>
+    <entry key="enableNumOrientationsChange" type="xboolean" value="true"/>
+    <entry key="enableAnglesChange" type="xboolean" value="true"/>
+    <entry key="enableSelection" type="xboolean" value="true"/>
+    <entry key="selectionColor" type="xstring" value="#333333"/>
+    <entry key="enableShowSelectedOnly" type="xboolean" value="true"/>
+    <entry key="displayClearSelectionButton" type="xboolean" value="true"/>
+</config>

@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="viewRepresentation">
+    <config key="data">
+        <entry key="numSettings" type="xint" value="20"/>
+        <config key="0">
+            <entry key="id" type="xstring" value="tag_1358"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row2691_Row1357"/>
+            </config>
+            <entry key="text" type="xstring" value="echo dot easy set"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="5.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="1">
+            <entry key="id" type="xstring" value="tag_3341"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row6273_Row3340"/>
+            </config>
+            <entry key="text" type="xstring" value="pleasantly surprised sound quality"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="2">
+            <entry key="id" type="xstring" value="tag_2603"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row4908_Row2602"/>
+            </config>
+            <entry key="text" type="xstring" value="love able listen music"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="4.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="3">
+            <entry key="id" type="xstring" value="tag_1320"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row2617_Row1319"/>
+            </config>
+            <entry key="text" type="xstring" value="easy set start using"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="4">
+            <entry key="id" type="xstring" value="tag_3445"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row6451_Row3444"/>
+            </config>
+            <entry key="text" type="xstring" value="prime day absolutely love"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="5">
+            <entry key="id" type="xstring" value="tag_3358"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row6295_Row3357"/>
+            </config>
+            <entry key="text" type="xstring" value="plugged times makes inconvenient"/>
+            <entry key="color" type="xstring" value="#FF3300"/>
+            <entry key="size" type="xdouble" value="3.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="6">
+            <entry key="id" type="xstring" value="tag_1686"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row3291_Row1685"/>
+            </config>
+            <entry key="text" type="xstring" value="feels echo gen sound"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="7">
+            <entry key="id" type="xstring" value="tag_4717"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row8800_Row4716"/>
+            </config>
+            <entry key="text" type="xstring" value="upgrade amazon music play"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="8">
+            <entry key="id" type="xstring" value="tag_84"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row91_Row83"/>
+            </config>
+            <entry key="text" type="xstring" value="access music provided free"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="9">
+            <entry key="id" type="xstring" value="tag_3065"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row5664_Row3064"/>
+            </config>
+            <entry key="text" type="xstring" value="nice easy access info"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="10">
+            <entry key="id" type="xstring" value="tag_307"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row530_Row306"/>
+            </config>
+            <entry key="text" type="xstring" value="amazing speakers echo dot"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="11">
+            <entry key="id" type="xstring" value="tag_4218"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row7876_Row4217"/>
+            </config>
+            <entry key="text" type="xstring" value="spark plug cloud cam"/>
+            <entry key="color" type="xstring" value="#FF3300"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="12">
+            <entry key="id" type="xstring" value="tag_860"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row1745_Row859"/>
+            </config>
+            <entry key="text" type="xstring" value="connected home sound system"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="13">
+            <entry key="id" type="xstring" value="tag_1227"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row2504_Row1226"/>
+            </config>
+            <entry key="text" type="xstring" value="downside limited data wifi"/>
+            <entry key="color" type="xstring" value="#FF3300"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="14">
+            <entry key="id" type="xstring" value="tag_105"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row144_Row104"/>
+            </config>
+            <entry key="text" type="xstring" value="add skills routines smart"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="15">
+            <entry key="id" type="xstring" value="tag_1126"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row2293_Row1125"/>
+            </config>
+            <entry key="text" type="xstring" value="disappointed alexa plug-in wall"/>
+            <entry key="color" type="xstring" value="#FF3300"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="16">
+            <entry key="id" type="xstring" value="tag_4103"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row7724_Row4102"/>
+            </config>
+            <entry key="text" type="xstring" value="sometimes trouble finding song"/>
+            <entry key="color" type="xstring" value="#FF3300"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="17">
+            <entry key="id" type="xstring" value="tag_4587"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row8613_Row4586"/>
+            </config>
+            <entry key="text" type="xstring" value="tricky connect wifi initially"/>
+            <entry key="color" type="xstring" value="#FF3300"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="18">
+            <entry key="id" type="xstring" value="tag_1340"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row2637_Row1339"/>
+            </config>
+            <entry key="text" type="xstring" value="easy using alexa app"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+        <config key="19">
+            <entry key="id" type="xstring" value="tag_1907"/>
+            <config key="rowIDs">
+                <entry key="array-size" type="xint" value="1"/>
+                <entry key="0" type="xstring" value="Row3657_Row1906"/>
+            </config>
+            <entry key="text" type="xstring" value="grandkids play music dance"/>
+            <entry key="color" type="xstring" value="#0099FF"/>
+            <entry key="size" type="xdouble" value="2.0"/>
+            <entry key="opacity" type="xdouble" value="0.0"/>
+        </config>
+    </config>
+    <entry key="tableID" type="xstring" value="fc3555e2-c3f7-441d-a3bb-27eb19acc05d"/>
+    <config key="subscriptionFilterIds">
+        <entry key="array-size" type="xint" value="0"/>
+    </config>
+    <config key="warningMessages">
+        <entry key="numSettings" type="xint" value="1"/>
+        <entry key="key_0" type="xstring" value="knime_clipped_rows"/>
+        <entry key="value_0" type="xstring" value="Only the first 20 tags are displayed."/>
+    </config>
+    <entry key="imageGeneration" type="xboolean" value="false"/>
+    <entry key="warningsInView" type="xboolean" value="true"/>
+    <entry key="resizeToWindow" type="xboolean" value="true"/>
+    <entry key="imageWidth" type="xint" value="800"/>
+    <entry key="imageHeight" type="xint" value="600"/>
+    <entry key="displayFullscreenButton" type="xboolean" value="true"/>
+    <entry key="displayRefreshButton" type="xboolean" value="true"/>
+    <entry key="disableAnimations" type="xboolean" value="false"/>
+    <entry key="colorProp" type="xboolean" value="true"/>
+    <entry key="font" type="xstring" value="Impact"/>
+    <entry key="fontBold" type="xboolean" value="false"/>
+    <entry key="enableViewConfiguration" type="xboolean" value="true"/>
+    <entry key="enableTitleChange" type="xboolean" value="true"/>
+    <entry key="enableSubtitleChange" type="xboolean" value="true"/>
+    <entry key="enableFontSizeChange" type="xboolean" value="true"/>
+    <entry key="enableScaleTypeChange" type="xboolean" value="true"/>
+    <entry key="enableSpiralTypeChange" type="xboolean" value="true"/>
+    <entry key="enableNumOrientationsChange" type="xboolean" value="true"/>
+    <entry key="enableAnglesChange" type="xboolean" value="true"/>
+    <entry key="enableSelection" type="xboolean" value="true"/>
+    <entry key="selectionColor" type="xstring" value="#333333"/>
+    <entry key="enableShowSelectedOnly" type="xboolean" value="true"/>
+    <entry key="displayClearSelectionButton" type="xboolean" value="true"/>
+</config>

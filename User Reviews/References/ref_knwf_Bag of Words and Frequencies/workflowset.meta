@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><met:KNIMEMetaInfo xmlns:met="http://www.knime.org/2.9/metainfo">
+<met:element form="text" read-only="false" name="Author">Lada.Rudnitckaia</met:element>
+<met:element form="date" read-only="false" name="Creation Date">31/6/2020/12:00:01 +02:00</met:element>
+<met:element form="multiline" read-only="false" name="Comments">05 Bag of Words and Frequencies
+
+L4-TP SELF-PACED COURSE exercise. Create a bag of words of a document. Calculate document frequencies (DF), term frequencies (TF), inverse document frequencies (IDF), and TF-IDF scores.&#13;
+&#13;
+&#13;
+
+
+VIDEO: Bag of Words and Frequencies https://youtu.be/sofiT6l48MY
+TAGS: Text mining,Text processing,NLP,natural language processing,TF,IDF,bag of words,frequency</met:element>
+</met:KNIMEMetaInfo>

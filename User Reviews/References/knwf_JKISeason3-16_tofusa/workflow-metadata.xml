@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <author>user1</author>
+    <created>2024-05-23T12:01:00.000+09:00</created>
+    <last-modified>2024-08-31T05:42:49.633+09:00</last-modified>
+    <description><![CDATA[<p><strong>Description: </strong>You are the architect behind an innovative vocal assistance device, and your initial goal is to process user reviews and uncover insights about 'sound quality’. To this end, you decide to use 4-grams to discover frequently mentioned words near the term "sound quality”. What trends emerge from the 4-gram frequencies? What is the top 4-gram? <strong>Hint:</strong> The <strong>NGram Creator node</strong> can come in handy here!</p>]]></description>
+    <tags>
+        <tag>JKISeason3-16</tag>
+    </tags>
+    <links>
+        <link href="https://hub.knime.com/knime/extensions/org.knime.features.ext.textprocessing/latest/org.knime.ext.textprocessing.nodes.misc.ngram.NGramNodeFactory">NGram Creator</link>
+    </links>
+</workflow-metadata>
