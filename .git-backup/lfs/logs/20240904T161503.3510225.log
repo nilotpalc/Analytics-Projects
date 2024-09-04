@@ -1,0 +1,49 @@
+git-lfs/3.5.1 (GitHub; windows amd64; go 1.21.7; git e237bb3a)
+git version 2.45.1.windows.1
+
+$ git-lfs.exe filter-process
+Unable to get local media path.
+
+error trying to create local storage directory in "G:\\My Drive\\KNM_WS\\Github\\Analytics-Projects\\.git\\lfs\\objects\\a8\\64": mkdir G:\My Drive\KNM_WS\Github\Analytics-Projects\.git\lfs\objects\a8: Cannot create a file when that file already exists.
+
+Current time in UTC:
+2024-09-04 10:45:03
+
+Environment:
+LocalWorkingDir=G:\My Drive\KNM_WS\Github\Analytics-Projects
+LocalGitDir=G:\My Drive\KNM_WS\Github\Analytics-Projects\.git
+LocalGitStorageDir=G:\My Drive\KNM_WS\Github\Analytics-Projects\.git
+LocalMediaDir=G:\My Drive\KNM_WS\Github\Analytics-Projects\.git\lfs\objects
+LocalReferenceDirs=
+TempDir=G:\My Drive\KNM_WS\Github\Analytics-Projects\.git\lfs\tmp
+ConcurrentTransfers=8
+TusTransfers=false
+BasicTransfersOnly=false
+SkipDownloadErrors=false
+FetchRecentAlways=false
+FetchRecentRefsDays=7
+FetchRecentCommitsDays=0
+FetchRecentRefsIncludeRemotes=true
+PruneOffsetDays=3
+PruneVerifyRemoteAlways=false
+PruneVerifyUnreachableAlways=false
+PruneRemoteName=origin
+LfsStorageDir=G:\My Drive\KNM_WS\Github\Analytics-Projects\.git\lfs
+AccessDownload=basic
+AccessUpload=basic
+DownloadTransfers=basic,lfs-standalone-file,ssh
+UploadTransfers=basic,lfs-standalone-file,ssh
+GIT_ASKPASS=
+GIT_CONFIG_COUNT=2
+GIT_CONFIG_KEY_0=credential.helper
+GIT_CONFIG_KEY_1=credential.helper
+GIT_CONFIG_VALUE_0=
+GIT_CONFIG_VALUE_1=desktop
+GIT_EXEC_PATH=C:\Users\Nilotpal.Choudhury\AppData\Local\GitHubDesktop\app-3.4.3\resources\app\git\mingw64\libexec\git-core
+GIT_LFS_PATH=C:\Program Files\Git LFS
+GIT_PREFIX=
+GIT_SSH_COMMAND=C:/Windows/System32/OpenSSH/ssh.exe
+GIT_USER_AGENT=git/2.45.1.windows.1 (GitHub Desktop/3.4.3; win32 x64)
+
+Client IP addresses:
+192.168.68.120
