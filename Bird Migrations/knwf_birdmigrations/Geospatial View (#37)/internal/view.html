@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="./libs/leaflet/1.9.3/leaflet.js"></script>
+    <script src="./libs/leaflet/1.9.3/jquery-1.12.4.min.js"></script>
+    <script src="./libs/leaflet/1.9.3/bootstrap.bundle.min.js"></script>
+    <script src="./libs/leaflet/1.9.3/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="./libs/leaflet/1.9.3/leaflet.css"/>
+    <link rel="stylesheet" href="./libs/leaflet/1.9.3/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./libs/leaflet/1.9.3/bootstrap.min.css"/>
+    <link rel="stylesheet" href="./libs/leaflet/1.9.3/all.min.css"/>
+    <link rel="stylesheet" href="./libs/leaflet/1.9.3/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="./libs/leaflet/1.9.3/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_02fde8944c7dda80a5047f6e6bc36973 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+                .leaflet-container { font-size: 1rem; }
+            </style>
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+    
+                    <style>
+                        .foliumpopup {
+                            margin: auto;
+                        }
+                       .foliumpopup table{
+                            margin: auto;
+                        }
+                        .foliumpopup tr{
+                            text-align: left;
+                        }
+                        .foliumpopup th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>
+    
+    
+            <div class="folium-map" id="map_02fde8944c7dda80a5047f6e6bc36973" ></div>
+        
+</body>
+<script>
+    
+    
+            var map_02fde8944c7dda80a5047f6e6bc36973 = L.map(
+                "map_02fde8944c7dda80a5047f6e6bc36973",
+                {
+                    center: [14.891135650000002, -72.17835575],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 10,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+            L.control.scale().addTo(map_02fde8944c7dda80a5047f6e6bc36973);
+
+            
+
+        
+    
+            var tile_layer_17202451f889fa2fed2c03d350db8d1c = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca target=\"_blank\" href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca target=\"_blank\" href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_02fde8944c7dda80a5047f6e6bc36973);
+        
+    
+            map_02fde8944c7dda80a5047f6e6bc36973.fitBounds(
+                [[-16.7233589, -96.8203911], [46.505630200000006, -47.536320399999994]],
+                {}
+            );
+        
+    
+        function geo_json_b8394e39c1c9892298b6eda21fc25f9a_styler(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillOpacity": 0.5, "weight": 1.0};
+            }
+        }
+        function geo_json_b8394e39c1c9892298b6eda21fc25f9a_highlighter(feature) {
+            switch(feature.id) {
+                default:
+                    return {"fillOpacity": 0.75};
+            }
+        }
+        function geo_json_b8394e39c1c9892298b6eda21fc25f9a_pointToLayer(feature, latlng) {
+            var opts = {"bubblingMouseEvents": true, "color": "#3388ff", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#3388ff", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 2, "stroke": true, "weight": 3};
+            
+            let style = geo_json_b8394e39c1c9892298b6eda21fc25f9a_styler(feature)
+            Object.assign(opts, style)
+            
+            return new L.CircleMarker(latlng, opts)
+        }
+
+        function geo_json_b8394e39c1c9892298b6eda21fc25f9a_onEachFeature(feature, layer) {
+            layer.on({
+                mouseout: function(e) {
+                    if(typeof e.target.setStyle === "function"){
+                        geo_json_b8394e39c1c9892298b6eda21fc25f9a.resetStyle(e.target);
+                    }
+                },
+                mouseover: function(e) {
+                    if(typeof e.target.setStyle === "function"){
+                        const highlightStyle = geo_json_b8394e39c1c9892298b6eda21fc25f9a_highlighter(e.target.feature)
+                        e.target.setStyle(highlightStyle);
+                    }
+                },
+            });
+        };
+        var geo_json_b8394e39c1c9892298b6eda21fc25f9a = L.geoJson(null, {
+                onEachFeature: geo_json_b8394e39c1c9892298b6eda21fc25f9a_onEachFeature,
+            
+                style: geo_json_b8394e39c1c9892298b6eda21fc25f9a_styler,
+                pointToLayer: geo_json_b8394e39c1c9892298b6eda21fc25f9a_pointToLayer
+        });
+
+        function geo_json_b8394e39c1c9892298b6eda21fc25f9a_add (data) {
+            geo_json_b8394e39c1c9892298b6eda21fc25f9a
+                .addData(data)
+                .addTo(map_02fde8944c7dda80a5047f6e6bc36973);
+        }
+            geo_json_b8394e39c1c9892298b6eda21fc25f9a_add({"bbox": [-96.8203911, -16.7233589, -47.536320399999994, 46.505630200000006], "features": [{"bbox": [-90.1299245, -4.4375763, -47.536320399999994, 20.7324163], "geometry": {"coordinates": [[-90.1299245, 20.7324163], [-47.536320399999994, -4.4375763]], "type": "LineString"}, "id": "0", "properties": {"\u003cRowID\u003e": "Row0", "tag-local-identifier": 30048}, "type": "Feature"}, {"bbox": [-93.60860759999998, -5.038396400000001, -62.47913810000001, 46.505630200000006], "geometry": {"coordinates": [[-93.60860759999998, 46.505630200000006], [-62.47913810000001, -5.038396400000001]], "type": "LineString"}, "id": "1", "properties": {"\u003cRowID\u003e": "Row1", "tag-local-identifier": 30054}, "type": "Feature"}, {"bbox": [-80.3103606, -2.7761655, -57.4641684, 25.9254455], "geometry": {"coordinates": [[-80.3103606, 25.9254455], [-57.4641684, -2.7761655]], "type": "LineString"}, "id": "2", "properties": {"\u003cRowID\u003e": "Row2", "tag-local-identifier": 30198}, "type": "Feature"}, {"bbox": [-76.78146219999999, -5.705042400000001, -50.192296999999996, 42.992084999999996], "geometry": {"coordinates": [[-76.78146219999999, 42.992084999999996], [-50.192296999999996, -5.705042400000001]], "type": "LineString"}, "id": "3", "properties": {"\u003cRowID\u003e": "Row3", "tag-local-identifier": 30263}, "type": "Feature"}, {"bbox": [-76.78213459999999, -16.7233589, -57.7040429, 42.9920688], "geometry": {"coordinates": [[-76.78213459999999, 42.9920688], [-57.7040429, -16.7233589]], "type": "LineString"}, "id": "4", "properties": {"\u003cRowID\u003e": "Row4", "tag-local-identifier": 30275}, "type": "Feature"}, {"bbox": [-94.7530944, -9.8445045, -50.2254745, 45.8695781], "geometry": {"coordinates": [[-94.7530944, 45.8695781], [-50.2254745, -9.8445045]], "type": "LineString"}, "id": "5", "properties": {"\u003cRowID\u003e": "Row5", "tag-local-identifier": 30300}, "type": "Feature"}, {"bbox": [-92.91447, -5.8564828, -52.555034400000004, 29.8441347], "geometry": {"coordinates": [[-92.91447, 29.8441347], [-52.555034400000004, -5.8564828]], "type": "LineString"}, "id": "6", "properties": {"\u003cRowID\u003e": "Row6", "tag-local-identifier": 30304}, "type": "Feature"}, {"bbox": [-82.72467440000001, -2.932504, -63.9874441, 28.871304100000003], "geometry": {"coordinates": [[-82.72467440000001, 28.871304100000003], [-63.9874441, -2.932504]], "type": "LineString"}, "id": "7", "properties": {"\u003cRowID\u003e": "Row7", "tag-local-identifier": 30380}, "type": "Feature"}, {"bbox": [-87.4677647, -2.9056982999999996, -51.851263200000005, 19.698833], "geometry": {"coordinates": [[-87.4677647, 19.698833], [-51.851263200000005, -2.9056982999999996]], "type": "LineString"}, "id": "8", "properties": {"\u003cRowID\u003e": "Row8", "tag-local-identifier": 30384}, "type": "Feature"}, {"bbox": [-96.8203911, -2.3559899, -53.9745426, 20.297542800000002], "geometry": {"coordinates": [[-96.8203911, 20.297542800000002], [-53.9745426, -2.3559899]], "type": "LineString"}, "id": "9", "properties": {"\u003cRowID\u003e": "Row9", "tag-local-identifier": 30445}, "type": "Feature"}, {"bbox": [-88.14601429999999, -3.9180502, -59.500590700000004, 17.5130487], "geometry": {"coordinates": [[-88.14601429999999, 17.5130487], [-59.500590700000004, -3.9180502]], "type": "LineString"}, "id": "10", "properties": {"\u003cRowID\u003e": "Row10", "tag-local-identifier": 30448}, "type": "Feature"}], "type": "FeatureCollection"});
+
+        
+    
+    geo_json_b8394e39c1c9892298b6eda21fc25f9a.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["tag-local-identifier"];
+    let aliases = ["tag-local-identifier"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumtooltip", "sticky": true});
+                     
+    
+    geo_json_b8394e39c1c9892298b6eda21fc25f9a.bindPopup(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    return div
+    }
+    ,{"className": "foliumpopup"});
+                     
+</script>
+</html>

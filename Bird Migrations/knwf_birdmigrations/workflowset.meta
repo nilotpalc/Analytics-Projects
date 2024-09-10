@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p><strong>Bird Migration Patterns</strong></p><p><strong>Challenge 17</strong></p><p><br><strong>Level: </strong>Medium<br><br><strong>Description: </strong>Birds like to travel and are often flying in big groups to different parts of the globe depending on the season. This week, your goal is to identify patterns in data about birds migrating from North America. You should isolate the initial and final locations of each bird and plot them on a map to visualize their migration path. Additionally, create a map visualization to determine which continent all the birds ultimately migrated to.</p>
+
+TAGS: JKISeason3-17]]></element>
+    <element form="text" name="Last Edited" read-only="true">2024-09-10 12:56:25 +0530</element>
+</KNIMEMetaInfo>
