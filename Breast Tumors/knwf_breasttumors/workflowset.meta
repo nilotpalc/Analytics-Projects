@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="2" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="multiline" name="Comments" read-only="false"><![CDATA[<p><strong>Challenge 18: Explaining Cancer Predictions</strong></p><p><strong>Level: </strong>Hard<br><br><strong>Description: </strong>You work as a researcher creating models to identify whether a breast tumor is benign or malign, based on anonymized patient data. Besides obtaining a classifier that works very well for both benign and malign cases, you must be able to explain how different feature values impact your results.</p>
+
+TAGS: JKISeason3-18]]></element>
+    <element form="text" name="Last Edited" read-only="true">2024-09-19 18:17:42 +0530</element>
+</KNIMEMetaInfo>

@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="hideInWizard" type="xboolean" value="false"/>
+        <entry key="generateView" type="xboolean" value="false"/>
+        <entry key="maxRows" type="xint" value="2500"/>
+        <entry key="jsCode" type="xstring" value="%%00010%%00010var body = document.getElementsByTagName('body')[0];%%00010var html = '&lt;div id=&quot;chart&quot; &gt;&lt;/div&gt;';%%00010%%00010// Adding a div to the body %%00010body.innerHTML = html;%%00010%%00010var data_json = $${SRow0}$$%%00010var chart_type = &quot;$${Schart_type}$$&quot;%%00010%%00010// this function finds the optimum number of rows and columns given the number of subplots we have.%%00010function getOptDimensions(nElements){%%00010    %%00010    let nrows = 1;%%00010    let ncols = 0;%%00010    if($${In_cols}$$ == 0){%%00010      ncols = Math.ceil(Math.sqrt(nElements));%%00010    }else{%%00010    %%00009 ncols = $${In_cols}$$;%%00010    }%%00010       %%00010    while(ncols*nrows &lt; nElements) %%00010        nrows++;%%00010        %%00010    return [nrows, ncols];%%00010}%%00010%%00010%%00010// getting the optimum dimensions %%00010let dims = getOptDimensions(data_json.length); %%00010let nRowsOpt = dims[0];%%00010let nColsOpt = dims[1];%%00010%%00010// chart width and height depends on number of columns and number of rows %%00010let chartWidth = nColsOpt * 200 + 1000/data_json.length;%%00010let chartHeight = nRowsOpt * 200 + 1000/data_json.length ;%%00010//let chartWidth = window.innerWidth + nColsOpt * 100;%%00010//let chartHeight = window.innerHeight + nRowsOpt * 100;%%00010%%00010%%00010// adding the traces based on the chart type %%00010var cell_index = 1; %%00010var chart_data=[];%%00010%%00010data_json.forEach(obj=&gt;{%%00010%%00009%%00010%%00009let xAxisData = obj.x%%00010%%00009let yAxisData = obj.y%%00010%%00009let category = obj.Category%%00010%%00009let trace = {}; %%00010%%00009%%00010%%00009if(chart_type==&quot;bar&quot;){%%00010%%00009%%00009trace = {%%00010%%00009%%00009  x: xAxisData,%%00010%%00009%%00009  y: yAxisData,%%00010%%00009%%00009  xaxis: 'x'+cell_index,%%00010%%00009%%00009  yaxis: 'y'+cell_index,%%00010%%00009%%00009  type: 'bar',%%00010%%00009%%00009  name : category,%%00010%%00009%%00009}%%00010%%00009}else if(chart_type==&quot;scatter&quot;){%%00010%%00009%%00009trace = {%%00010%%00009%%00009  x: xAxisData,%%00010%%00009%%00009  y: yAxisData,%%00010%%00009%%00009  xaxis: 'x'+cell_index,%%00010%%00009%%00009  yaxis: 'y'+cell_index,%%00010%%00009%%00009  type: 'scatter',%%00010%%00009%%00009  mode: 'markers',%%00010%%00009%%00009  marker: { size: 4},%%00010%%00009%%00009  name : category,%%00010%%00009%%00009}%%00010%%00009%%00009%%00010%%00009}else if(chart_type==&quot;line&quot;){%%00010%%00009%%00009trace = {%%00010%%00009%%00009  x: xAxisData,%%00010%%00009%%00009  y: yAxisData,%%00010%%00009%%00009  xaxis: 'x'+cell_index,%%00010%%00009%%00009  yaxis: 'y'+cell_index,%%00010%%00009%%00009  type: 'scatter',%%00010%%00009%%00009  mode: 'lines',%%00010%%00009%%00009}%%00010%%00009%%00009%%00010%%00009}%%00010%%00009%%00010%%00009chart_data.push(trace);%%00010%%00009cell_index = cell_index + 1;%%00010});%%00010%%00010%%00010%%00010// axes min max range%%00010var y_range = [$${Dy (Min*)}$$-0.1,$${Dy (Max*)}$$+0.1];%%00010%%00010// setting up the layout %%00010var layout = {%%00010  grid: {rows: nRowsOpt, columns: nColsOpt, pattern: 'independent'},%%00010  title: &quot;$${Schart_title}$$&quot;,%%00010  width: chartWidth,%%00010  height: chartHeight,%%00010  %%00010  margin: 5,%%00010  showlegend: false,%%00010};%%00010%%00010if($${Ishow_axis_var}$$ == 0){%%00010%%00009// adding xy axis options %%00010%%00009for(let i=1 ; i &lt;= data_json.length ; i++ ){%%00010%%00009%%00009let category_name = data_json[i-1].Category;%%00010%%00009%%00009// for each cell we add the following xaxis and yaxis settings %%00009%%00010%%00009%%00009layout[&quot;xaxis&quot;+i] = { &quot;title&quot;:category_name ,&quot;showticklabels&quot;:false, &quot;visible&quot;: true , &quot;showgrid&quot;: false, &quot;zeroline&quot;: false,&quot;side&quot;: 'bottom'}%%00010%%00009%%00009%%00010%%00009%%00009if($${Ishared_y_axis_var}$$ == 1){%%00010%%00009%%00009%%00009layout[&quot;yaxis&quot;+i] = {&quot;title&quot;:&quot;&quot;, &quot;visible&quot;: false, &quot;showgrid&quot;: false, &quot;zeroline&quot;: false,&quot;range&quot;:y_range}%%00010%%00009%%00009}%%00010%%00009%%00009else{%%00010%%00009%%00009%%00009layout[&quot;yaxis&quot;+i] = {&quot;title&quot;:&quot;&quot;, &quot;visible&quot;: false, &quot;showgrid&quot;: false, &quot;zeroline&quot;: false}%%00010%%00009%%00009}%%00010%%00009%%00009%%00010%%00009}%%00010%%00010}else{%%00010%%00009%%00010%%00009// adding xy axis options %%00010%%00009for(let i=1 ; i &lt;= data_json.length ; i++ ){%%00010%%00009%%00009let category_name = data_json[i-1].Category;%%00010%%00009%%00009// for each cell we add the following xaxis and yaxis settings %%00009%%00010%%00009%%00009layout[&quot;xaxis&quot;+i] = { &quot;title&quot;:category_name ,&quot;side&quot;: 'bottom',}%%00010%%00009%%00009%%00010%%00009%%00009if($${Ishared_y_axis_var}$$ == 1){%%00010%%00009%%00009%%00009layout[&quot;yaxis&quot;+i] = {&quot;title&quot;:&quot;&quot;, &quot;range&quot;:y_range}%%00010%%00009%%00009%%00009%%00010%%00009%%00009}%%00010%%00009%%00009else{%%00010%%00009%%00009%%00009layout[&quot;yaxis&quot;+i] = {&quot;title&quot;:&quot;&quot;}%%00010%%00009%%00009}%%00010%%00009}%%00010%%00009%%00010%%00009%%00010}%%00010%%00010%%00010Plotly.newPlot('chart', chart_data, layout, {displayModeBar: false});"/>
+        <entry key="jsSVGCode" type="xstring" value=""/>
+        <entry key="cssCode" type="xstring" value="body {%%00010    font-family: sans-serif;%%00010}%%00010h1 {%%00010    font-size: 1.5em;%%00010    font-weight: bold;%%00010}%%00010.success {%%00010    color: #006633;%%00010    font-weight: bold;%%00010}%%00010%%00010.failure {%%00010    color: #990000;%%00010    font-weight: bold;%%00010}%%00010%%00010"/>
+        <config key="dependencies">
+            <entry key="array-size" type="xint" value="2"/>
+            <entry key="0" type="xstring" value="plotly.js-1.47.4"/>
+            <entry key="1" type="xstring" value="jQuery_3.1.1"/>
+        </config>
+        <entry key="waitTime" type="xint" value="0"/>
+        <config key="outputVariables">
+            <entry key="array-size" type="xint" value="0"/>
+        </config>
+        <entry key="customCSS" type="xstring" isnull="true" value=""/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.js.base.node.viz.generic3.GenericJSViewNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Generic JavaScript View (JavaScript)"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME JavaScript Base Views"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.views"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202402011404"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME JavaScript Views"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.views.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.0.v202402011404"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Generic JavaScript View (JavaScript)"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+        <config key="port_2">
+            <entry key="index" type="xint" value="2"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

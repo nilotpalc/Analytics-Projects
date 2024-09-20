@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-09-19T15:59:52.140+05:30</last-modified>
+    <description>This Component is able to create a Local Interpretable Model-agnostic Explanation (LIME) to explain the predictions of any machine learning model in KNIME.
+
+You have to use this component together with LIME Loop Start node from the KNIME Machine Learning Interpretability Extension. 
+Please install KNIME H2O Machine Learning Integration.
+
+https://hub.knime.com/knime/extensions/org.knime.features.ext.h2o/latest
+
+The workflow within the Component will go through the following steps:
+1. Using LASSO to select relevant features.
+2. Training a local surrogate Generalized Linear Model (GLM) using Weighted Least Squares (WLS).
+3. Output the coefficients of the local model able to explain the original instance prediction.
+
+More info about LIME at: 
+
+homes.cs.washington.edu/~marcotcr/blog/lime</description>
+    <component-type>Learner</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAi0lEQVR4nGNgoDYwMDBwMDIyaoBhID+AaM1ADQUmJiYOQE0CMDEQ39jYeD1QTIGgZlyKQAYaGhouwOdsA6ABCfgsABkOsgSX7Q14nUdI3cAbAAppEManGW8YQE2fgBx92GzHG5UgSWzxDTIUpBkUjfgsQLYpATklQtOHACwtEGUIHlcOIkMIxRrRAABplTOgJ4UUigAAAABJRU5ErkJggg==</icon>
+    <in-ports>
+        <port name="Predicted Samples">A table with a Double Type prediction column of the sampled instances. Such prediction column can be created scoring the LIME Loop Start top ouput table with the predictor node of your model. 
+
+If your model is solving a classification task make sure to output a pobability column of Double Type.</port>
+        <port name="Test Set Row Instances">This table contains the data used to learn a local surrogate model including a weight column and it is produced by Loop Start node bottom port. </port>
+    </in-ports>
+    <out-ports>
+        <port name="Explanation Table">A table containing the explanation. Each column with a feature column name holds the single value of the coefficient of the trained local surrogate linear model.
+ 
+Additionally the columns "Target", "Intercept" and "RMSE" are added. "Target" describes which prediction column of the orginal model is explained. "Intercept" shows the value of the intecept of the trained linear model. "RMSE" refers to the precision of the explanation. The lower, the better as it is computed using the weighted root mean squared error comparing the original predictions and the predictions created by the linear surrogate model.
+</port>
+    </out-ports>
+</component-metadata>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/html" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-09-19T18:17:42.526+05:30</last-modified>
+    <description><![CDATA[<p><strong>Challenge 18: Explaining Cancer Predictions</strong></p><p><strong>Level: </strong>Hard<br><br><strong>Description: </strong>You work as a researcher creating models to identify whether a breast tumor is benign or malign, based on anonymized patient data. Besides obtaining a classifier that works very well for both benign and malign cases, you must be able to explain how different feature values impact your results.</p>]]></description>
+    <tags>
+        <tag>JKISeason3-18</tag>
+    </tags>
+</workflow-metadata>

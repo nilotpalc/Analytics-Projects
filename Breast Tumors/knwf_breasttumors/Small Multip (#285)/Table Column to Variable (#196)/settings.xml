@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack">
+        <config key="Variable_0">
+            <entry key="type" type="xstring" value="variable"/>
+            <entry key="name" type="xstring" value="Row0"/>
+            <entry key="class" type="xstring" value="STRING"/>
+            <entry key="value" type="xstring" value="[{%%00013%%00010  &quot;Category&quot; : &quot;5&quot;,%%00013%%00010  &quot;x&quot; : [ &quot;Bare Nuclei&quot;, &quot;Bland Chromatin&quot;, &quot;Clump Thickness&quot;, &quot;Marginal Adhesion&quot;, &quot;Mitoses&quot;, &quot;Normal Nucleoli&quot;, &quot;Single Epithelial Cell Size&quot;, &quot;Uniformity of Cell Shape&quot;, &quot;Uniformity of Cell Size&quot; ],%%00013%%00010  &quot;y&quot; : [ -0.021869151266598497, 1.4793853253026858, 1.1665833462262731, -0.532723293303851, -0.7093545966263444, -1.2117002593765334, -1.126726703546529, 0.9619173971357946, -0.005512064544895612 ]%%00013%%00010},{%%00013%%00010  &quot;Category&quot; : &quot;6&quot;,%%00013%%00010  &quot;x&quot; : [ &quot;Bare Nuclei&quot;, &quot;Bland Chromatin&quot;, &quot;Clump Thickness&quot;, &quot;Marginal Adhesion&quot;, &quot;Mitoses&quot;, &quot;Normal Nucleoli&quot;, &quot;Single Epithelial Cell Size&quot;, &quot;Uniformity of Cell Shape&quot;, &quot;Uniformity of Cell Size&quot; ],%%00013%%00010  &quot;y&quot; : [ 0.2082944260306121, 1.4622653523783886, 0.4749341393699327, -0.9264048474846633, -0.6622166522317261, -1.6305827596106408, -0.5477910651952105, 0.7045301649604516, 0.9169712417828544 ]%%00013%%00010},{%%00013%%00010  &quot;Category&quot; : &quot;7&quot;,%%00013%%00010  &quot;x&quot; : [ &quot;Bare Nuclei&quot;, &quot;Bland Chromatin&quot;, &quot;Clump Thickness&quot;, &quot;Marginal Adhesion&quot;, &quot;Mitoses&quot;, &quot;Normal Nucleoli&quot;, &quot;Single Epithelial Cell Size&quot;, &quot;Uniformity of Cell Shape&quot;, &quot;Uniformity of Cell Size&quot; ],%%00013%%00010  &quot;y&quot; : [ 0.28228260210118505, 1.1647339824005098, 1.202847319792419, -0.49147061290639416, -1.130834291815241, -1.379650336933533, -0.828194182910884, 0.9842635777000299, 0.19602194257191008 ]%%00013%%00010},{%%00013%%00010  &quot;Category&quot; : &quot;8&quot;,%%00013%%00010  &quot;x&quot; : [ &quot;Bare Nuclei&quot;, &quot;Bland Chromatin&quot;, &quot;Clump Thickness&quot;, &quot;Marginal Adhesion&quot;, &quot;Mitoses&quot;, &quot;Normal Nucleoli&quot;, &quot;Single Epithelial Cell Size&quot;, &quot;Uniformity of Cell Shape&quot;, &quot;Uniformity of Cell Size&quot; ],%%00013%%00010  &quot;y&quot; : [ -0.3200385960406277, 1.7841416863986927, 0.6915744965330028, -0.8801719212815073, -0.9698435941611643, -0.9336278250023766, -0.7626444335725631, 0.9196412849681888, 0.4709689021583534 ]%%00013%%00010},{%%00013%%00010  &quot;Category&quot; : &quot;9&quot;,%%00013%%00010  &quot;x&quot; : [ &quot;Bare Nuclei&quot;, &quot;Bland Chromatin&quot;, &quot;Clump Thickness&quot;, &quot;Marginal Adhesion&quot;, &quot;Mitoses&quot;, &quot;Normal Nucleoli&quot;, &quot;Single Epithelial Cell Size&quot;, &quot;Uniformity of Cell Shape&quot;, &quot;Uniformity of Cell Size&quot; ],%%00013%%00010  &quot;y&quot; : [ 0.13334614481889662, 1.2504564067181412, 1.4987207728302878, -0.9768699038346729, -0.7076012187991242, -1.2679022346326223, -0.8218338453062454, 0.5816769798314954, 0.3100068983738451 ]%%00013%%00010}]"/>
+        </config>
+    </config>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <config key="column_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="column" type="xstring" value="data"/>
+        <config key="skip_missing_Internals">
+            <entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+            <entry key="EnabledStatus" type="xboolean" value="true"/>
+        </config>
+        <entry key="skip_missing" type="xboolean" value="false"/>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="IDLE"/>
+    <entry key="factory" type="xstring" value="org.knime.base.node.flowvariable.tablecoltovariable4.TableColumnToVariable4NodeFactory"/>
+    <entry key="node-name" type="xstring" value="Table Column to Variable"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
+    <config key="factory_settings"/>
+    <entry key="name" type="xstring" value="Table Column to Variable"/>
+    <entry key="hasContent" type="xboolean" value="false"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports">
+        <config key="port_1">
+            <entry key="index" type="xint" value="1"/>
+            <entry key="port_dir_location" type="xstring" isnull="true" value=""/>
+        </config>
+    </config>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" isnull="true" value=""/>
+    </config>
+</config>

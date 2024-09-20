@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<component-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <last-modified>2024-09-18T22:03:45.488+05:30</last-modified>
+    <description>This component generates a Small Multiples chart: a series of similar plots to be compared. In this component we offer three chart types: line plots, bar charts and scatter plots. Each small multiple visualizes a partition of your input data based on a given categorical column. 
+
+DISCLAIMER: if a partition contains more than 10k rows its small multiple is going to show an empty chart for performance reasons. Consider in this case sampling your data before applying this component.
+
+This component is implemented using plotly.js library (version 1.47.4).</description>
+    <component-type>Visualizer</component-type>
+    <icon>iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAcElEQVR4nGNgoDUwMDAQMDEx6TcyMmoA4gJyDFAAakwAsUGGDFIDQH6D+hHDn2gGTICqmWBsbByAbEADNjYuFyCLYWgCmrwfxAfS88kyAMbGpniYG5AAi0Zg4K2H0TDFoABFlsOIRooBUiIiCVPFcgAwM2Hob2VycwAAAABJRU5ErkJggg==</icon>
+    <in-ports>
+        <port name="Input Data Table">Should contain at least one categorical column.</port>
+    </in-ports>
+    <out-ports/>
+</component-metadata>
