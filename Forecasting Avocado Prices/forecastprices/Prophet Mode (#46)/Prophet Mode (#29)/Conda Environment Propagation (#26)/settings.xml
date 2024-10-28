@@ -8,7 +8,7 @@
             <entry key="class" type="xstring" value="CONDAENVIRONMENT"/>
             <config key="value">
                 <entry key="name" type="xstring" value="ts_env"/>
-                <entry key="directory" type="xstring" value="C:\Users\Nilotpal.Choudhury\AppData\Local\miniforge3\envs\ts_env"/>
+                <entry key="directory" type="xstring" value="C:\Users\choud\miniconda3\envs\ts_env"/>
             </config>
         </config>
         <config key="Variable_1">
@@ -17,7 +17,7 @@
             <entry key="class" type="xstring" value="CONDAENVIRONMENT"/>
             <config key="value">
                 <entry key="name" type="xstring" value="ts_env"/>
-                <entry key="directory" type="xstring" value="C:\Users\Nilotpal.Choudhury\AppData\Local\miniforge3\envs\ts_env"/>
+                <entry key="directory" type="xstring" value="C:\Users\choud\miniconda3\envs\ts_env"/>
             </config>
         </config>
     </config>
@@ -718,16 +718,356 @@
         </config>
         <config key="excluded_packages">
             <config key="names">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="85"/>
+                <entry key="0" type="xstring" value="aiohappyeyeballs"/>
+                <entry key="1" type="xstring" value="aiohttp"/>
+                <entry key="2" type="xstring" value="build"/>
+                <entry key="3" type="xstring" value="bzip2"/>
+                <entry key="4" type="xstring" value="ca-certificates"/>
+                <entry key="5" type="xstring" value="cachecontrol"/>
+                <entry key="6" type="xstring" value="certifi"/>
+                <entry key="7" type="xstring" value="charset-normalizer"/>
+                <entry key="8" type="xstring" value="cleo"/>
+                <entry key="9" type="xstring" value="colorama"/>
+                <entry key="10" type="xstring" value="contourpy"/>
+                <entry key="11" type="xstring" value="crashtest"/>
+                <entry key="12" type="xstring" value="debugpy"/>
+                <entry key="13" type="xstring" value="distlib"/>
+                <entry key="14" type="xstring" value="duckdb"/>
+                <entry key="15" type="xstring" value="dulwich"/>
+                <entry key="16" type="xstring" value="executing"/>
+                <entry key="17" type="xstring" value="fastjsonschema"/>
+                <entry key="18" type="xstring" value="filelock"/>
+                <entry key="19" type="xstring" value="fonttools"/>
+                <entry key="20" type="xstring" value="fsspec"/>
+                <entry key="21" type="xstring" value="grpcio"/>
+                <entry key="22" type="xstring" value="holidays"/>
+                <entry key="23" type="xstring" value="idna"/>
+                <entry key="24" type="xstring" value="importlib-metadata"/>
+                <entry key="25" type="xstring" value="importlib-resources"/>
+                <entry key="26" type="xstring" value="installer"/>
+                <entry key="27" type="xstring" value="ipython"/>
+                <entry key="28" type="xstring" value="jaraco-classes"/>
+                <entry key="29" type="xstring" value="jupyter-client"/>
+                <entry key="30" type="xstring" value="keyring"/>
+                <entry key="31" type="xstring" value="kiwisolver"/>
+                <entry key="32" type="xstring" value="libffi"/>
+                <entry key="33" type="xstring" value="lightning-utilities"/>
+                <entry key="34" type="xstring" value="more-itertools"/>
+                <entry key="35" type="xstring" value="msgpack"/>
+                <entry key="36" type="xstring" value="multidict"/>
+                <entry key="37" type="xstring" value="openssl"/>
+                <entry key="38" type="xstring" value="packaging"/>
+                <entry key="39" type="xstring" value="pandas"/>
+                <entry key="40" type="xstring" value="pexpect"/>
+                <entry key="41" type="xstring" value="pip"/>
+                <entry key="42" type="xstring" value="pkginfo"/>
+                <entry key="43" type="xstring" value="platformdirs"/>
+                <entry key="44" type="xstring" value="plotly"/>
+                <entry key="45" type="xstring" value="poetry"/>
+                <entry key="46" type="xstring" value="poetry-core"/>
+                <entry key="47" type="xstring" value="poetry-plugin-export"/>
+                <entry key="48" type="xstring" value="prompt-toolkit"/>
+                <entry key="49" type="xstring" value="protobuf"/>
+                <entry key="50" type="xstring" value="ptyprocess"/>
+                <entry key="51" type="xstring" value="pyparsing"/>
+                <entry key="52" type="xstring" value="pyproject-hooks"/>
+                <entry key="53" type="xstring" value="python"/>
+                <entry key="54" type="xstring" value="pytz"/>
+                <entry key="55" type="xstring" value="pywin32-ctypes"/>
+                <entry key="56" type="xstring" value="pyzmq"/>
+                <entry key="57" type="xstring" value="rapidfuzz"/>
+                <entry key="58" type="xstring" value="requests"/>
+                <entry key="59" type="xstring" value="requests-toolbelt"/>
+                <entry key="60" type="xstring" value="scikit-learn"/>
+                <entry key="61" type="xstring" value="scipy"/>
+                <entry key="62" type="xstring" value="setuptools"/>
+                <entry key="63" type="xstring" value="shellingham"/>
+                <entry key="64" type="xstring" value="sqlite"/>
+                <entry key="65" type="xstring" value="statsmodels"/>
+                <entry key="66" type="xstring" value="sympy"/>
+                <entry key="67" type="xstring" value="tensorboard"/>
+                <entry key="68" type="xstring" value="tk"/>
+                <entry key="69" type="xstring" value="tomli"/>
+                <entry key="70" type="xstring" value="tomlkit"/>
+                <entry key="71" type="xstring" value="torch"/>
+                <entry key="72" type="xstring" value="torchmetrics"/>
+                <entry key="73" type="xstring" value="trove-classifiers"/>
+                <entry key="74" type="xstring" value="tzdata"/>
+                <entry key="75" type="xstring" value="urllib3"/>
+                <entry key="76" type="xstring" value="vc"/>
+                <entry key="77" type="xstring" value="virtualenv"/>
+                <entry key="78" type="xstring" value="vs2015_runtime"/>
+                <entry key="79" type="xstring" value="werkzeug"/>
+                <entry key="80" type="xstring" value="wheel"/>
+                <entry key="81" type="xstring" value="xz"/>
+                <entry key="82" type="xstring" value="yarl"/>
+                <entry key="83" type="xstring" value="zipp"/>
+                <entry key="84" type="xstring" value="zlib"/>
             </config>
             <config key="versions">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="85"/>
+                <entry key="0" type="xstring" value="2.4.2"/>
+                <entry key="1" type="xstring" value="3.10.8"/>
+                <entry key="2" type="xstring" value="1.2.1"/>
+                <entry key="3" type="xstring" value="1.0.8"/>
+                <entry key="4" type="xstring" value="2024.7.2"/>
+                <entry key="5" type="xstring" value="0.14.0"/>
+                <entry key="6" type="xstring" value="2024.7.4"/>
+                <entry key="7" type="xstring" value="3.3.2"/>
+                <entry key="8" type="xstring" value="2.1.0"/>
+                <entry key="9" type="xstring" value="0.4.6"/>
+                <entry key="10" type="xstring" value="1.3.0"/>
+                <entry key="11" type="xstring" value="0.4.1"/>
+                <entry key="12" type="xstring" value="1.8.6"/>
+                <entry key="13" type="xstring" value="0.3.8"/>
+                <entry key="14" type="xstring" value="1.1.1"/>
+                <entry key="15" type="xstring" value="0.21.7"/>
+                <entry key="16" type="xstring" value="2.1.0"/>
+                <entry key="17" type="xstring" value="2.20.0"/>
+                <entry key="18" type="xstring" value="3.16.1"/>
+                <entry key="19" type="xstring" value="4.54.1"/>
+                <entry key="20" type="xstring" value="2024.9.0"/>
+                <entry key="21" type="xstring" value="1.66.2"/>
+                <entry key="22" type="xstring" value="0.57"/>
+                <entry key="23" type="xstring" value="3.10"/>
+                <entry key="24" type="xstring" value="8.0.0"/>
+                <entry key="25" type="xstring" value="6.4.5"/>
+                <entry key="26" type="xstring" value="0.7.0"/>
+                <entry key="27" type="xstring" value="8.27.0"/>
+                <entry key="28" type="xstring" value="3.4.0"/>
+                <entry key="29" type="xstring" value="8.6.3"/>
+                <entry key="30" type="xstring" value="24.3.1"/>
+                <entry key="31" type="xstring" value="1.4.7"/>
+                <entry key="32" type="xstring" value="3.4.4"/>
+                <entry key="33" type="xstring" value="0.11.7"/>
+                <entry key="34" type="xstring" value="10.3.0"/>
+                <entry key="35" type="xstring" value="1.0.8"/>
+                <entry key="36" type="xstring" value="6.1.0"/>
+                <entry key="37" type="xstring" value="3.0.14"/>
+                <entry key="38" type="xstring" value="24.1"/>
+                <entry key="39" type="xstring" value="2.2.3"/>
+                <entry key="40" type="xstring" value="4.9.0"/>
+                <entry key="41" type="xstring" value="24.2"/>
+                <entry key="42" type="xstring" value="1.11.1"/>
+                <entry key="43" type="xstring" value="4.3.6"/>
+                <entry key="44" type="xstring" value="5.24.1"/>
+                <entry key="45" type="xstring" value="1.8.3"/>
+                <entry key="46" type="xstring" value="1.9.0"/>
+                <entry key="47" type="xstring" value="1.8.0"/>
+                <entry key="48" type="xstring" value="3.0.48"/>
+                <entry key="49" type="xstring" value="5.28.2"/>
+                <entry key="50" type="xstring" value="0.7.0"/>
+                <entry key="51" type="xstring" value="3.1.4"/>
+                <entry key="52" type="xstring" value="1.1.0"/>
+                <entry key="53" type="xstring" value="3.10.14"/>
+                <entry key="54" type="xstring" value="2024.2"/>
+                <entry key="55" type="xstring" value="0.2.2"/>
+                <entry key="56" type="xstring" value="26.2.0"/>
+                <entry key="57" type="xstring" value="3.9.4"/>
+                <entry key="58" type="xstring" value="2.32.3"/>
+                <entry key="59" type="xstring" value="1.0.0"/>
+                <entry key="60" type="xstring" value="1.5.2"/>
+                <entry key="61" type="xstring" value="1.14.1"/>
+                <entry key="62" type="xstring" value="75.1.0"/>
+                <entry key="63" type="xstring" value="1.5.4"/>
+                <entry key="64" type="xstring" value="3.45.3"/>
+                <entry key="65" type="xstring" value="0.14.3"/>
+                <entry key="66" type="xstring" value="1.13.3"/>
+                <entry key="67" type="xstring" value="2.18.0"/>
+                <entry key="68" type="xstring" value="8.6.14"/>
+                <entry key="69" type="xstring" value="2.0.1"/>
+                <entry key="70" type="xstring" value="0.13.0"/>
+                <entry key="71" type="xstring" value="2.4.1"/>
+                <entry key="72" type="xstring" value="1.4.2"/>
+                <entry key="73" type="xstring" value="2024.7.2"/>
+                <entry key="74" type="xstring" value="2024.2"/>
+                <entry key="75" type="xstring" value="2.2.3"/>
+                <entry key="76" type="xstring" value="14.2"/>
+                <entry key="77" type="xstring" value="20.26.3"/>
+                <entry key="78" type="xstring" value="14.29.30133"/>
+                <entry key="79" type="xstring" value="3.0.4"/>
+                <entry key="80" type="xstring" value="0.43.0"/>
+                <entry key="81" type="xstring" value="5.4.6"/>
+                <entry key="82" type="xstring" value="1.13.1"/>
+                <entry key="83" type="xstring" value="3.19.2"/>
+                <entry key="84" type="xstring" value="1.2.13"/>
             </config>
             <config key="builds">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="85"/>
+                <entry key="0" type="xstring" value="pypi_0"/>
+                <entry key="1" type="xstring" value="pypi_0"/>
+                <entry key="2" type="xstring" value="pypi_0"/>
+                <entry key="3" type="xstring" value="h2bbff1b_6"/>
+                <entry key="4" type="xstring" value="haa95532_0"/>
+                <entry key="5" type="xstring" value="pypi_0"/>
+                <entry key="6" type="xstring" value="pypi_0"/>
+                <entry key="7" type="xstring" value="pypi_0"/>
+                <entry key="8" type="xstring" value="pypi_0"/>
+                <entry key="9" type="xstring" value="pypi_0"/>
+                <entry key="10" type="xstring" value="pypi_0"/>
+                <entry key="11" type="xstring" value="pypi_0"/>
+                <entry key="12" type="xstring" value="pypi_0"/>
+                <entry key="13" type="xstring" value="pypi_0"/>
+                <entry key="14" type="xstring" value="pypi_0"/>
+                <entry key="15" type="xstring" value="pypi_0"/>
+                <entry key="16" type="xstring" value="pypi_0"/>
+                <entry key="17" type="xstring" value="pypi_0"/>
+                <entry key="18" type="xstring" value="pypi_0"/>
+                <entry key="19" type="xstring" value="pypi_0"/>
+                <entry key="20" type="xstring" value="pypi_0"/>
+                <entry key="21" type="xstring" value="pypi_0"/>
+                <entry key="22" type="xstring" value="pypi_0"/>
+                <entry key="23" type="xstring" value="pypi_0"/>
+                <entry key="24" type="xstring" value="pypi_0"/>
+                <entry key="25" type="xstring" value="pypi_0"/>
+                <entry key="26" type="xstring" value="pypi_0"/>
+                <entry key="27" type="xstring" value="pypi_0"/>
+                <entry key="28" type="xstring" value="pypi_0"/>
+                <entry key="29" type="xstring" value="pypi_0"/>
+                <entry key="30" type="xstring" value="pypi_0"/>
+                <entry key="31" type="xstring" value="pypi_0"/>
+                <entry key="32" type="xstring" value="hd77b12b_1"/>
+                <entry key="33" type="xstring" value="pypi_0"/>
+                <entry key="34" type="xstring" value="pypi_0"/>
+                <entry key="35" type="xstring" value="pypi_0"/>
+                <entry key="36" type="xstring" value="pypi_0"/>
+                <entry key="37" type="xstring" value="h827c3e9_0"/>
+                <entry key="38" type="xstring" value="pypi_0"/>
+                <entry key="39" type="xstring" value="pypi_0"/>
+                <entry key="40" type="xstring" value="pypi_0"/>
+                <entry key="41" type="xstring" value="pypi_0"/>
+                <entry key="42" type="xstring" value="pypi_0"/>
+                <entry key="43" type="xstring" value="pypi_0"/>
+                <entry key="44" type="xstring" value="pypi_0"/>
+                <entry key="45" type="xstring" value="pypi_0"/>
+                <entry key="46" type="xstring" value="pypi_0"/>
+                <entry key="47" type="xstring" value="pypi_0"/>
+                <entry key="48" type="xstring" value="pypi_0"/>
+                <entry key="49" type="xstring" value="pypi_0"/>
+                <entry key="50" type="xstring" value="pypi_0"/>
+                <entry key="51" type="xstring" value="pypi_0"/>
+                <entry key="52" type="xstring" value="pypi_0"/>
+                <entry key="53" type="xstring" value="he1021f5_1"/>
+                <entry key="54" type="xstring" value="pypi_0"/>
+                <entry key="55" type="xstring" value="pypi_0"/>
+                <entry key="56" type="xstring" value="pypi_0"/>
+                <entry key="57" type="xstring" value="pypi_0"/>
+                <entry key="58" type="xstring" value="pypi_0"/>
+                <entry key="59" type="xstring" value="pypi_0"/>
+                <entry key="60" type="xstring" value="pypi_0"/>
+                <entry key="61" type="xstring" value="pypi_0"/>
+                <entry key="62" type="xstring" value="pypi_0"/>
+                <entry key="63" type="xstring" value="pypi_0"/>
+                <entry key="64" type="xstring" value="h2bbff1b_0"/>
+                <entry key="65" type="xstring" value="pypi_0"/>
+                <entry key="66" type="xstring" value="pypi_0"/>
+                <entry key="67" type="xstring" value="pypi_0"/>
+                <entry key="68" type="xstring" value="h0416ee5_0"/>
+                <entry key="69" type="xstring" value="pypi_0"/>
+                <entry key="70" type="xstring" value="pypi_0"/>
+                <entry key="71" type="xstring" value="pypi_0"/>
+                <entry key="72" type="xstring" value="pypi_0"/>
+                <entry key="73" type="xstring" value="pypi_0"/>
+                <entry key="74" type="xstring" value="pypi_0"/>
+                <entry key="75" type="xstring" value="pypi_0"/>
+                <entry key="76" type="xstring" value="h2eaa2aa_4"/>
+                <entry key="77" type="xstring" value="pypi_0"/>
+                <entry key="78" type="xstring" value="h43f2093_4"/>
+                <entry key="79" type="xstring" value="pypi_0"/>
+                <entry key="80" type="xstring" value="py310haa95532_0"/>
+                <entry key="81" type="xstring" value="h8cc25b3_1"/>
+                <entry key="82" type="xstring" value="pypi_0"/>
+                <entry key="83" type="xstring" value="pypi_0"/>
+                <entry key="84" type="xstring" value="h8cc25b3_1"/>
             </config>
             <config key="channels">
-                <entry key="array-size" type="xint" value="0"/>
+                <entry key="array-size" type="xint" value="85"/>
+                <entry key="0" type="xstring" value="pypi"/>
+                <entry key="1" type="xstring" value="pypi"/>
+                <entry key="2" type="xstring" value="pypi"/>
+                <entry key="3" type="xstring" value="pkgs/main"/>
+                <entry key="4" type="xstring" value="pkgs/main"/>
+                <entry key="5" type="xstring" value="pypi"/>
+                <entry key="6" type="xstring" value="pypi"/>
+                <entry key="7" type="xstring" value="pypi"/>
+                <entry key="8" type="xstring" value="pypi"/>
+                <entry key="9" type="xstring" value="pypi"/>
+                <entry key="10" type="xstring" value="pypi"/>
+                <entry key="11" type="xstring" value="pypi"/>
+                <entry key="12" type="xstring" value="pypi"/>
+                <entry key="13" type="xstring" value="pypi"/>
+                <entry key="14" type="xstring" value="pypi"/>
+                <entry key="15" type="xstring" value="pypi"/>
+                <entry key="16" type="xstring" value="pypi"/>
+                <entry key="17" type="xstring" value="pypi"/>
+                <entry key="18" type="xstring" value="pypi"/>
+                <entry key="19" type="xstring" value="pypi"/>
+                <entry key="20" type="xstring" value="pypi"/>
+                <entry key="21" type="xstring" value="pypi"/>
+                <entry key="22" type="xstring" value="pypi"/>
+                <entry key="23" type="xstring" value="pypi"/>
+                <entry key="24" type="xstring" value="pypi"/>
+                <entry key="25" type="xstring" value="pypi"/>
+                <entry key="26" type="xstring" value="pypi"/>
+                <entry key="27" type="xstring" value="pypi"/>
+                <entry key="28" type="xstring" value="pypi"/>
+                <entry key="29" type="xstring" value="pypi"/>
+                <entry key="30" type="xstring" value="pypi"/>
+                <entry key="31" type="xstring" value="pypi"/>
+                <entry key="32" type="xstring" value="pkgs/main"/>
+                <entry key="33" type="xstring" value="pypi"/>
+                <entry key="34" type="xstring" value="pypi"/>
+                <entry key="35" type="xstring" value="pypi"/>
+                <entry key="36" type="xstring" value="pypi"/>
+                <entry key="37" type="xstring" value="pkgs/main"/>
+                <entry key="38" type="xstring" value="pypi"/>
+                <entry key="39" type="xstring" value="pypi"/>
+                <entry key="40" type="xstring" value="pypi"/>
+                <entry key="41" type="xstring" value="pypi"/>
+                <entry key="42" type="xstring" value="pypi"/>
+                <entry key="43" type="xstring" value="pypi"/>
+                <entry key="44" type="xstring" value="pypi"/>
+                <entry key="45" type="xstring" value="pypi"/>
+                <entry key="46" type="xstring" value="pypi"/>
+                <entry key="47" type="xstring" value="pypi"/>
+                <entry key="48" type="xstring" value="pypi"/>
+                <entry key="49" type="xstring" value="pypi"/>
+                <entry key="50" type="xstring" value="pypi"/>
+                <entry key="51" type="xstring" value="pypi"/>
+                <entry key="52" type="xstring" value="pypi"/>
+                <entry key="53" type="xstring" value="pkgs/main"/>
+                <entry key="54" type="xstring" value="pypi"/>
+                <entry key="55" type="xstring" value="pypi"/>
+                <entry key="56" type="xstring" value="pypi"/>
+                <entry key="57" type="xstring" value="pypi"/>
+                <entry key="58" type="xstring" value="pypi"/>
+                <entry key="59" type="xstring" value="pypi"/>
+                <entry key="60" type="xstring" value="pypi"/>
+                <entry key="61" type="xstring" value="pypi"/>
+                <entry key="62" type="xstring" value="pypi"/>
+                <entry key="63" type="xstring" value="pypi"/>
+                <entry key="64" type="xstring" value="pkgs/main"/>
+                <entry key="65" type="xstring" value="pypi"/>
+                <entry key="66" type="xstring" value="pypi"/>
+                <entry key="67" type="xstring" value="pypi"/>
+                <entry key="68" type="xstring" value="pkgs/main"/>
+                <entry key="69" type="xstring" value="pypi"/>
+                <entry key="70" type="xstring" value="pypi"/>
+                <entry key="71" type="xstring" value="pypi"/>
+                <entry key="72" type="xstring" value="pypi"/>
+                <entry key="73" type="xstring" value="pypi"/>
+                <entry key="74" type="xstring" value="pypi"/>
+                <entry key="75" type="xstring" value="pypi"/>
+                <entry key="76" type="xstring" value="pkgs/main"/>
+                <entry key="77" type="xstring" value="pypi"/>
+                <entry key="78" type="xstring" value="pkgs/main"/>
+                <entry key="79" type="xstring" value="pypi"/>
+                <entry key="80" type="xstring" value="pkgs/main"/>
+                <entry key="81" type="xstring" value="pkgs/main"/>
+                <entry key="82" type="xstring" value="pypi"/>
+                <entry key="83" type="xstring" value="pypi"/>
+                <entry key="84" type="xstring" value="pkgs/main"/>
             </config>
         </config>
         <config key="environment_validation_Internals">
@@ -758,11 +1098,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Conda"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.conda"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.0.v202406210945"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409010954"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Conda Integration"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.conda.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.0.v202406210945"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409010954"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Conda Environment Propagation"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -780,6 +1120,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="54fd728f-aa4d-4214-88fa-8802b8b7a98f"/>
+        <entry key="file_store_id" type="xstring" value="79312f13-ce38-42fb-8ef0-341887856339"/>
     </config>
 </config>

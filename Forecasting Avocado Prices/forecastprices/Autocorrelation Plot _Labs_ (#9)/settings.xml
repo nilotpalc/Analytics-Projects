@@ -9,7 +9,7 @@
         <entry key="target_col" type="xstring" value="AveragePrice"/>
         <entry key="max_lag" type="xint" value="70"/>
         <entry key="json-type_Internals" type="xstring" value="OBJECT"/>
-        <entry key="extension_version_Internals" type="xstring" value="5.3.1"/>
+        <entry key="extension_version_Internals" type="xstring" value="5.3.2"/>
     </config>
     <config key="variables"/>
     <entry key="customDescription" type="xstring" isnull="true" value=""/>
@@ -19,11 +19,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Timeseries (Labs)"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.timeseries-analysis"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202407291759"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409011155"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Timeseries (Labs)"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.timeseries-analysis.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.1.v202407291759"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409011155"/>
     <entry key="factory-id-uniquifier" type="xstring" value="org.knime.timeseries-analysis_!_autocorrelation_analysis"/>
     <config key="factory_settings">
         <entry key="extension_id" type="xstring" value="org.knime.timeseries-analysis"/>
@@ -51,6 +51,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="a76a1565-764f-4af2-80e0-7d6acf1cb191"/>
+        <entry key="file_store_id" type="xstring" value="1e1ab909-e707-443b-98fe-9ad0d25c961e"/>
     </config>
 </config>

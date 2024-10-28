@@ -26,11 +26,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.scripting.nodes"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202407291559"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409031127"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.scripting.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.1.v202407291559"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409040940"/>
     <config key="factory_settings"/>
     <config key="node_creation_config">
         <config key="Input object (pickled)"/>
@@ -64,6 +64,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="13c52064-844e-45e1-b62c-267dc4be9f43"/>
+        <entry key="file_store_id" type="xstring" value="e662db64-62ff-4f87-9640-1db7bb5dbd47"/>
     </config>
 </config>

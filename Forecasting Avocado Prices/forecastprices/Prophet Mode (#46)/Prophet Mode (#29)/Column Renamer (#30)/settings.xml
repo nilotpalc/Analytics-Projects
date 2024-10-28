@@ -21,11 +21,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202408020914"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409100934"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408020914"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Column Renamer"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -41,6 +41,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="0be10966-b78c-4133-8e37-09fb12b79772"/>
+        <entry key="file_store_id" type="xstring" value="748e2e8a-20ba-44c5-9dc3-3f6a4aec5362"/>
     </config>
 </config>

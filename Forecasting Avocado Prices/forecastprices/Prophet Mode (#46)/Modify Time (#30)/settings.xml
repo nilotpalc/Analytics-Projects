@@ -71,7 +71,7 @@
     <entry key="node-feature-name" type="xstring" value="KNIME Base nodes"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408020914"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409100934"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Modify Time"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -87,6 +87,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="f0122d21-b844-47c4-b578-0d48e8b66c15"/>
+        <entry key="file_store_id" type="xstring" value="1f328729-c5a0-4ac3-b4a9-764ba3c3b019"/>
     </config>
 </config>

@@ -55,11 +55,11 @@
     <entry key="node-bundle-name" type="xstring" value="KNIME Quick Form Nodes"/>
     <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.js.quickforms"/>
     <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-bundle-version" type="xstring" value="5.3.1.v202407291559"/>
+    <entry key="node-bundle-version" type="xstring" value="5.3.2.v202409110905"/>
     <entry key="node-feature-name" type="xstring" value="KNIME Quick Forms"/>
     <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.js.quickforms.feature.group"/>
     <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
-    <entry key="node-feature-version" type="xstring" value="5.3.1.v202408010849"/>
+    <entry key="node-feature-version" type="xstring" value="5.3.2.v202409110905"/>
     <config key="factory_settings"/>
     <entry key="name" type="xstring" value="Double Configuration"/>
     <entry key="hasContent" type="xboolean" value="true"/>
@@ -77,6 +77,6 @@
     </config>
     <config key="filestores">
         <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-        <entry key="file_store_id" type="xstring" value="bff7def5-19b2-4437-8916-f14b059fb4b3"/>
+        <entry key="file_store_id" type="xstring" value="f48bdeff-470e-4172-9bf1-6b68e853e8f9"/>
     </config>
 </config>
