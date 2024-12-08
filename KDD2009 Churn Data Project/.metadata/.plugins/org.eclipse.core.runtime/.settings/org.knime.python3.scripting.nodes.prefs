@@ -1,0 +1,5 @@
+bundledCondaEnvPath=org_knime_pythonscripting
+eclipse.preferences.version=1
+python3CondaEnvironmentDirectoryPath=C\:\\Users\\Nilotpal.Choudhury\\AppData\\Local\\miniforge3\\envs\\ds_env
+python3Path=python3
+pythonEnvironmentType=conda

@@ -1,0 +1,14 @@
+{
+  "version" : "5.4.0.v202411251357",
+  "projects" : [ ],
+  "mostRecentlyUsedProjects" : [ {
+    "name" : "wf_dimreduce",
+    "timeUsed" : "2024-12-08T21:23:41.5208353+05:30",
+    "origin" : {
+      "providerId" : "local",
+      "spaceId" : "local",
+      "projectType" : "WORKFLOW",
+      "relativePath" : "wf_dimreduce"
+    }
+  } ]
+}

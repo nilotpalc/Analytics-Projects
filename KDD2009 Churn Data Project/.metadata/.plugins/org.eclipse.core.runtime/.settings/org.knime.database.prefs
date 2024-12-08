@@ -1,0 +1,8 @@
+drivers/DuckDb/database_type=default
+drivers/DuckDb/description=
+drivers/DuckDb/driver_class=org.duckdb.DuckDBDriver
+drivers/DuckDb/name=DuckDb Driver
+drivers/DuckDb/paths/0=C\:\\Users\\Nilotpal.Choudhury\\knm_ap_drv\\duckdb_jdbc-1.1.3.jar
+drivers/DuckDb/url_template=jdbc\:duckdb\:{file}
+drivers/DuckDb/version=1.0.0
+eclipse.preferences.version=1

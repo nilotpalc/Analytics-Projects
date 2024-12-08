@@ -1,0 +1,9 @@
+eclipse.preferences.version=1
+kerasCondaEnvironmentDirectoryPath=no_conda_environment_selected
+librarySelection=keras
+manualConfig=python3
+pythonConfigSelection=python
+pythonEnvironmentType=conda
+serializerId=org.knime.serialization.flatbuffers.column
+tf2CondaEnvironmentDirectoryPath=no_conda_environment_selected
+tf2ManualConfig=python3
