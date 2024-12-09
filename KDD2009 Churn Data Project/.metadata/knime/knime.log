@@ -403,3 +403,68 @@ Caused by: java.lang.Exception: weka.attributeSelection.ClassifierSubsetEval mus
       [object Object] (source: http://org.knime.ui.java/assets/index-Bnh0E6L6.js; line: 87)
 2024-12-08 22:17:30,749 : WARN  : comm-pool-thread-5 :  : Node : AttributeSelectedClassifier (3.7) : 3:44 : Target column class-label not found in DataTableSpec.
 2024-12-08 22:39:52,948 : WARN  : comm-pool-thread-10 :  : Node : AttributeSelectedClassifier (3.7) : 3:44 : Target column Row0 not found in DataTableSpec.
+2024-12-08 23:47:04,900 : WARN  : Node Repository Initializer :  : ColumnarPreferenceInitializer :  :  : Configured heap memory limit does not leave enough free memory for the columnar backend off-heap memory. Using 768Mb for the off-heap memory limit.
+2024-12-08 23:57:51,108 : WARN  : ModalContext :  : AbstractColumnarContainerTable : Python Script : 3:4 : Creation of hard links not supported, will copy files instead (and suppress further warnings)
+java.nio.file.FileSystemException: C:\Users\NILOTP~1.CHO\AppData\Local\Temp\knime_wf_dimreduce_17751\knime_container_20241208_5084297016949265089.knable -> G:\My Drive\KNM_WS\Github\Analytics-Projects\KDD2009 Churn Data Project\wf_dimreduce\Python Script (#4)\port_1\data.zip: The system cannot move the file to a different disk drive
+	at java.base/sun.nio.fs.WindowsException.translateToIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsException.rethrowAsIOException(Unknown Source)
+	at java.base/sun.nio.fs.WindowsFileSystemProvider.createLink(Unknown Source)
+	at java.base/java.nio.file.Files.createLink(Unknown Source)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.hardLinkOrCopy(AbstractColumnarContainerTable.java:311)
+	at org.knime.core.data.columnar.table.AbstractColumnarContainerTable.<init>(AbstractColumnarContainerTable.java:137)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader$SavedColumnarContainerTable.<init>(ColumnarContainerTableLoader.java:97)
+	at org.knime.core.data.columnar.table.ColumnarContainerTableLoader.load(ColumnarContainerTableLoader.java:65)
+	at org.knime.core.node.ExtensionTableRegistry.loadExtensionTable(ExtensionTableRegistry.java:134)
+	at org.knime.core.node.ExtensionTable.loadExtensionTable(ExtensionTable.java:308)
+	at org.knime.core.node.BufferedDataTable.loadFromFile(BufferedDataTable.java:888)
+	at org.knime.core.node.FileNodePersistor.loadBufferedDataTable(FileNodePersistor.java:478)
+	at org.knime.core.node.FileNodePersistor.loadPort(FileNodePersistor.java:367)
+	at org.knime.core.node.FileNodePersistor.loadPorts(FileNodePersistor.java:331)
+	at org.knime.core.node.FileNodePersistor.load(FileNodePersistor.java:996)
+	at org.knime.core.node.workflow.FileNativeNodeContainerPersistor.loadNCAndModelSettings(FileNativeNodeContainerPersistor.java:281)
+	at org.knime.core.node.workflow.FileSingleNodeContainerPersistor.loadNodeContainer(FileSingleNodeContainerPersistor.java:265)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:8993)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8895)
+	at org.knime.core.node.workflow.WorkflowManager.postLoad(WorkflowManager.java:9009)
+	at org.knime.core.node.workflow.WorkflowManager.loadContent(WorkflowManager.java:8895)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8759)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8680)
+	at org.knime.core.node.workflow.WorkflowManager.load(WorkflowManager.java:8653)
+	at org.knime.core.node.workflow.WorkflowManager.loadProject(WorkflowManager.java:8499)
+	at org.knime.workbench.editor2.LoadWorkflowRunnable.run(LoadWorkflowRunnable.java:199)
+	at org.knime.ui.java.util.DesktopAPUtil.loadWorkflow(DesktopAPUtil.java:185)
+	at org.knime.ui.java.util.DesktopAPUtil.fetchAndLoadWorkflowWithTask(DesktopAPUtil.java:149)
+	at org.knime.ui.java.api.OpenProject.loadProject(OpenProject.java:260)
+	at org.knime.ui.java.api.OpenProject.openProjectWithProgress(OpenProject.java:187)
+	at org.knime.ui.java.api.OpenProject.lambda$0(OpenProject.java:106)
+	at org.knime.ui.java.util.DesktopAPUtil.lambda$13(DesktopAPUtil.java:474)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:124)
+2024-12-09 00:06:38,422 : WARN  : comm-pool-thread-1 :  : Node : Distance Matrix Calculate : 3:48 : Distance not set.
+2024-12-09 00:06:52,796 : WARN  : comm-pool-thread-1 :  : Node : String Distances : 3:47 : Guessing column: '"Var193"' and
+Levenshtein Distance.
+2024-12-09 00:07:28,828 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-Bnh0E6L6.js; line: 87)
+2024-12-09 00:07:33,752 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-Bnh0E6L6.js; line: 87)
+2024-12-09 00:08:52,499 : WARN  : comm-pool-thread-1 :  : Node : String Distances : 3:49 : Guessing column: '"Var193"' and
+Levenshtein Distance.
+2024-12-09 00:08:53,022 : ERROR : main :  : KnimeBrowserView :  :  : %cerror%c Error captured hook ::  
+      background: #c0392b;
+      border-radius: 0.5em;
+      color: white;
+      font-weight: bold;
+      padding: 2px 0.5em;
+      [object Object] (source: http://org.knime.ui.java/assets/index-Bnh0E6L6.js; line: 87)
+2024-12-09 00:10:40,952 : WARN  : KNIME-Worker-4-Distance Matrix Calculate 3:48 :  : Node : Distance Matrix Calculate : 3:48 : Execution canceled
+2024-12-09 00:28:18,506 : WARN  : comm-pool-thread-5 :  : Node : Distance Matrix Calculate : 3:48 : Distance not set.
+2024-12-09 09:20:45,609 : WARN  : Node Repository Initializer :  : ColumnarPreferenceInitializer :  :  : Configured heap memory limit does not leave enough free memory for the columnar backend off-heap memory. Using 768Mb for the off-heap memory limit.

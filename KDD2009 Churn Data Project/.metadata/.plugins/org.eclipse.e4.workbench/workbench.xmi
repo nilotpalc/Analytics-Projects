@@ -59,6 +59,8 @@
           <tags>persp.viewSC:com.nodepit.knime.view.nodepit</tags>
           <tags>persp.viewSC:com.knime.workbench.hubview</tags>
           <tags>persp.perspSC:org.knime.reporting.designer.perspective.ReportingDesignerPerspective</tags>
+          <tags>persp.actionSet:org.eclipse.ui.edit.text.actionSet.convertLineDelimitersTo</tags>
+          <tags>persp.actionSet:org.eclipse.ui.actionSet.openFiles</tags>
           <children xsi:type="basic:PartSashContainer" xmi:id="_DsPhgbWJEe-piMv5M-sWTg" selectedElement="_DsPhgrWJEe-piMv5M-sWTg" horizontal="true">
             <children xsi:type="basic:PartSashContainer" xmi:id="_DsPhgrWJEe-piMv5M-sWTg" containerData="3000" selectedElement="_DsPhg7WJEe-piMv5M-sWTg">
               <children xsi:type="basic:PartStack" xmi:id="_DsPhg7WJEe-piMv5M-sWTg" elementId="org.knime.workbench.explorer.viewMStack" containerData="3000" selectedElement="_DsPhhLWJEe-piMv5M-sWTg">
@@ -2028,7 +2030,7 @@
   <addons xmi:id="_ISgoR7VsEe-u5ucAPwdYRQ" elementId="MinMax Addon" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.minmax.MinMaxAddon"/>
   <addons xmi:id="_ISgoSLVsEe-u5ucAPwdYRQ" elementId="org.eclipse.ui.workbench.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.workbench" contributionURI="bundleclass://org.eclipse.e4.ui.workbench/org.eclipse.e4.ui.internal.workbench.addons.HandlerProcessingAddon"/>
   <addons xmi:id="_ISs1cLVsEe-u5ucAPwdYRQ" elementId="SplitterAddon" contributionURI="bundleclass://org.eclipse.e4.ui.workbench.addons.swt/org.eclipse.e4.ui.workbench.addons.splitteraddon.SplitterAddon"/>
-  <addons xmi:id="_ax3FIbV8Ee-piMv5M-sWTg" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
+  <addons xmi:id="_qW7XEbXgEe-ZgOhW8hqsFQ" elementId="org.eclipse.ui.ide.addon.0" contributionURI="bundleclass://org.eclipse.ui.ide/org.eclipse.ui.internal.ide.addons.SaveAllDirtyPartsAddon"/>
   <addons xmi:id="_dz0JgGOlEeSMMaPQU2nlzw" elementId="org.eclipse.ui.ide.application.addon.0" contributorURI="platform:/plugin/org.eclipse.ui.ide.application" contributionURI="bundleclass://org.eclipse.ui.ide.application/org.eclipse.ui.internal.ide.application.addons.ModelCleanupAddon"/>
   <addons xmi:id="_PIzMwOIhEeqv_LafONhFZw" elementId="org.knime.ui.java.addon.0" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.PerspectiveSwitchAddon"/>
   <addons xmi:id="_QJa40OK8EeqdIqprVKVB4Q" elementId="org.knime.ui.java.addon.1" contributorURI="platform:/plugin/org.knime.ui.java" contributionURI="bundleclass://org.knime.ui.java/org.knime.ui.java.AppStartupCompleteAddon"/>
