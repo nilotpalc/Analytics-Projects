@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--This file is auto-generated and is overwritten each time the workflow is saved.
+    The metadata have moved to the `workflow-metadata.xml` file.-->
+<KNIMEMetaInfo nrOfElements="4" xmlns="http://www.knime.org/2.9/metainfo">
+    <element form="text" name="Author" read-only="false">maarit.widmann</element>
+    <element form="date" name="Creation Date" read-only="false">1/2/2022/12:00:01 +02:00</element>
+    <element form="multiline" name="Comments" read-only="false">Exercise 1 Training the Decision Tree Algorithm
+
+This workflow shows a hands-on exercise in the L4-ML Introduction to Machine Learning Algorithms self-paced course
+
+TAGS: education,L4-ML</element>
+    <element form="text" name="Last Edited" read-only="true">2024-12-11 18:35:09 +0530</element>
+</KNIMEMetaInfo>

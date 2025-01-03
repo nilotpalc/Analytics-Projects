@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+    <entry key="node_file" type="xstring" value="settings.xml"/>
+    <config key="flow_stack"/>
+    <config key="internal_node_subsettings">
+        <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+    </config>
+    <config key="model">
+        <entry key="python3_command" type="xstring" value=""/>
+        <entry key="script" type="xstring" value="import knime.scripting.io as knio%%00010%%00010# This example script plots a bar chart using seaborn and assigns it to the output view%%00010import pandas as pd%%00010import seaborn as sns%%00010import matplotlib.pyplot as plt%%00010%%00010# Create the dataframe as per the give', 'B', 'C'n construct%%00010data = knio.input_tables[0].to_pandas()%%00010%%00010&quot;&quot;&quot;%%00010Create a seaborn facetgrid plot that will have a facet for each of the unique values in the 'MeasureNames' column%%00010Each facet grid will contain a bar chart that will show the 'Feature Selection' column on the x-axis \%%00010    and the 'MeasureValues' column on the y-axis%%00010&quot;&quot;&quot;%%00010g = sns.FacetGrid(data, col='Measure Names', col_wrap=3, height=6, aspect=1.5)%%00010g.map(sns.barplot, 'Feature Selection', 'Measure Values')%%00010g.set_xticklabels(rotation=45)%%00010%%00010# Add padding to the top%%00010g.fig.subplots_adjust(top=1.2)%%00010%%00010# show data labels for each bar%%00010for ax in g.axes.flat:%%00010    for p in ax.patches:%%00010        ax.annotate(f'{p.get_height():.2f}', (p.get_x() + p.get_width() / 2., p.get_height()), \%%00010        ha='center', va='center', xytext=(0, 10), textcoords='offset points')%%00010%%00010plt.tight_layout()%%00010# Assign the figure to the output_view variable%%00010knio.output_view = knio.view_matplotlib()"/>
+    </config>
+    <config key="variables">
+        <entry key="version" type="xstring" value="V_2019_09_13"/>
+        <config key="tree">
+            <config key="python3_command">
+                <entry key="used_variable" type="xstring" value=""/>
+                <entry key="used_variable_flawed" type="xboolean" value="false"/>
+                <entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+            </config>
+        </config>
+    </config>
+    <entry key="customDescription" type="xstring" isnull="true" value=""/>
+    <entry key="state" type="xstring" value="EXECUTED"/>
+    <entry key="factory" type="xstring" value="org.knime.python3.scripting.nodes2.view.PythonViewNodeFactory"/>
+    <entry key="node-name" type="xstring" value="Python View"/>
+    <entry key="node-bundle-name" type="xstring" value="KNIME Python 3 - Scripting Nodes"/>
+    <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.python3.scripting.nodes"/>
+    <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-bundle-version" type="xstring" value="5.4.0.v202411270736"/>
+    <entry key="node-feature-name" type="xstring" value="KNIME Python Integration"/>
+    <entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.python3.scripting.feature.group"/>
+    <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+    <entry key="node-feature-version" type="xstring" value="5.4.0.v202411270736"/>
+    <config key="factory_settings"/>
+    <config key="node_creation_config">
+        <config key="Input object (pickled)"/>
+        <config key="Input table">
+            <config key="port_0">
+                <entry key="object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+            </config>
+        </config>
+        <config key="Output image"/>
+    </config>
+    <entry key="name" type="xstring" value="Python View"/>
+    <entry key="hasContent" type="xboolean" value="true"/>
+    <entry key="isInactive" type="xboolean" value="false"/>
+    <config key="ports"/>
+    <config key="filestores">
+        <entry key="file_store_location" type="xstring" isnull="true" value=""/>
+        <entry key="file_store_id" type="xstring" value="8d18d680-d3bd-4d64-946f-45fd7c6bc5ca"/>
+    </config>
+</config>

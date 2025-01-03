@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workflow-metadata content-type="text/plain" xmlns="http://www.knime.org/core/node/workflow/metadata/v1.0">
+    <author>maarit.widmann</author>
+    <created>2022-03-01T12:00:01.000+02:00</created>
+    <last-modified>2024-12-11T18:35:09.353+05:30</last-modified>
+    <description>Exercise 1 Training the Decision Tree Algorithm
+
+This workflow shows a hands-on exercise in the L4-ML Introduction to Machine Learning Algorithms self-paced course</description>
+    <tags>
+        <tag>education</tag>
+        <tag>L4-ML</tag>
+    </tags>
+</workflow-metadata>

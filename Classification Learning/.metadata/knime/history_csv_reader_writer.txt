@@ -1,0 +1,10 @@
+loan_data.csv
+../projectdata/loan_data.csv
+../projectdata/creditcard.csv
+../creditcard.csv
+../projectdata/newdatafinal.csv
+../projectdata/trainingdatafinal.csv
+../projectdata/orange_small_train_appetency.labels
+../projectdata/orange_small_train_upselling.labels
+../orange_small_train_upselling.labels
+G:\My Drive\KNM_WS\Github\Analytics-Projects\KDD2009 Churn Data Project\orange_small_train.data

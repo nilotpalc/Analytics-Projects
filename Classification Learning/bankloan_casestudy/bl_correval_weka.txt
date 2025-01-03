@@ -1,0 +1,32 @@
+=== Run information ===
+
+Evaluator:    weka.attributeSelection.CorrelationAttributeEval 
+Search:       weka.attributeSelection.Ranker -T -1.7976931348623157E308 -N -1
+Relation:     loan_data-weka.filters.unsupervised.attribute.Remove-R2-3,6,8,13
+Instances:    45000
+Attributes:   9
+              person_age
+              person_income
+              person_emp_exp
+              loan_amnt
+              loan_int_rate
+              loan_percent_income
+              cb_person_cred_hist_length
+              credit_score
+              loan_status
+Evaluation mode:    10-fold cross-validation
+
+
+
+=== Attribute selection 10 fold cross-validation seed: 1 ===
+
+average merit      average rank  attribute
+ 0.385 +- 0.002     1   +- 0       6 loan_percent_income
+ 0.332 +- 0.002     2   +- 0       5 loan_int_rate
+ 0.108 +- 0.001     3   +- 0       4 loan_amnt
+-0.008 +- 0.002     4   +- 0       8 credit_score
+-0.015 +- 0.001     5   +- 0       7 cb_person_cred_hist_length
+-0.02  +- 0.001     6   +- 0       3 person_emp_exp
+-0.021 +- 0.001     7   +- 0       1 person_age
+-0.136 +- 0.005     8   +- 0       2 person_income
+
